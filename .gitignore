@@ -43,6 +43,8 @@
 !/frontend/package-lock.json
 !/frontend/static.json
 
+!vercel.json
+
 backend
 backend-service/cache
 backend-service/__pycache__
