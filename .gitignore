@@ -65,3 +65,4 @@ backend-service/__pycache__
 # macOS folder attributes
 
 .DS_Store
+backend-service/__pycache__
