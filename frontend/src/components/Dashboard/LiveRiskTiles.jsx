@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Row, Col, Typography } from "antd";
 import { Thermometer, Droplets, Wind, CloudRain, AlertTriangle } from "lucide-react";
+import { formatNumber } from "../../utils/formatters"; // ✅ IMPORT THE NEW FUNCTION
 
 const { Text } = Typography;
 
@@ -10,42 +11,11 @@ function LiveRiskTiles({ liveData }) {
   const dailySummary = liveData.daily_summary || {};
 
   const tiles = [
-    {
-      title: "Todi Score",
-      value: dailySummary.todi_score?.[0],
-      icon: <AlertTriangle size={20} />,
-      thresholds: [3, 7],
-    },
-    {
-      title: "Max Temp",
-      value: dailySummary.max_temp_celsius?.[0],
-      icon: <Thermometer size={20} />,
-      thresholds: [30, 38],
-    },
-    {
-      title: "Min Temp",
-      value: dailySummary.min_temp_celsius?.[0],
-      icon: <Thermometer size={20} />,
-      thresholds: [15, 25],
-    },
-    {
-      title: "Humidity",
-      value: dailySummary.humidity_percent?.[0],
-      icon: <Droplets size={20} />,
-      thresholds: [40, 70],
-    },
-    {
-      title: "Wind Speed",
-      value: dailySummary.max_wind_speed_ms?.[0],
-      icon: <Wind size={20} />,
-      thresholds: [5, 12],
-    },
-    {
-      title: "Rain Chance",
-      value: dailySummary.rain_probability_percent?.[0],
-      icon: <CloudRain size={20} />,
-      thresholds: [40, 70],
-    },
+    { title: "Todi Score", value: dailySummary.todi_score?.[0], unit: "", thresholds: [3, 7], icon: <AlertTriangle size={20} /> },
+    { title: "Max Temp", value: dailySummary.max_temp_celsius?.[0], unit: "°C", thresholds: [30, 38], icon: <Thermometer size={20} /> },
+    { title: "Humidity", value: dailySummary.humidity_percent?.[0], unit: "%", thresholds: [40, 70], icon: <Droplets size={20} /> },
+    { title: "Wind Speed", value: dailySummary.max_wind_speed_ms?.[0], unit: " m/s", thresholds: [5, 12], icon: <Wind size={20} /> },
+    { title: "Rain Chance", value: dailySummary.rain_probability_percent?.[0], unit: "%", thresholds: [40, 70], icon: <CloudRain size={20} /> },
   ];
 
   const getLevelColor = (value, thresholds) => {
@@ -60,15 +30,7 @@ function LiveRiskTiles({ liveData }) {
       {tiles.map((tile, idx) =>
         tile.value != null ? (
           <Col xs={12} sm={8} md={6} lg={4} key={idx}>
-            <Card
-              hoverable
-              style={{
-                textAlign: "center",
-                borderTop: `4px solid ${getLevelColor(tile.value, tile.thresholds)}`,
-                borderRadius: "12px",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
-              }}
-            >
+            <Card hoverable style={{ textAlign: "center", borderTop: `4px solid ${getLevelColor(tile.value, tile.thresholds)}` }}>
               <div style={{ fontSize: "24px", color: getLevelColor(tile.value, tile.thresholds), marginBottom: "8px" }}>
                 {tile.icon}
               </div>
@@ -76,7 +38,8 @@ function LiveRiskTiles({ liveData }) {
                 {tile.title}
               </Text>
               <Text style={{ fontSize: "16px", color: getLevelColor(tile.value, tile.thresholds) }}>
-                {tile.value}{tile.title.includes("Temp") ? "°C" : tile.title.includes("Humidity") ? "%" : tile.title.includes("Wind") ? " m/s" : ""}
+                {/* ✅ USE THE FORMATTING FUNCTION HERE */}
+                {formatNumber(tile.value, tile.title === 'Todi Score' ? 0 : 1)}{tile.unit}
               </Text>
             </Card>
           </Col>

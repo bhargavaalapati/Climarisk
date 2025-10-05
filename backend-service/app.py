@@ -13,7 +13,7 @@ from live_nasa_processor import (
 app = Flask(__name__)
 # Define a list of allowed frontend URLs
 allowed_origins = [
-    "https://project-clima-risk.vercel.app",  # Your deployed frontend
+    "https://climarisk.vercel.app",  # Your deployed frontend
     "http://localhost:5173",  # Your local frontend dev server
     # You can add other ports here if Vite uses a different one, e.g., "http://localhost:3000"
 ]

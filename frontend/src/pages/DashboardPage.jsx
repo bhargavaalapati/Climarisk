@@ -382,8 +382,8 @@ function DashboardPage() {
       )}
       {liveData && (
         <>
-          <LiveRiskTiles liveData={liveData} /> 
-          <LiveRiskCard liveData={liveData} /> 
+          <LiveRiskTiles liveData={liveData.liveData} /> 
+          <LiveRiskCard liveData={liveData.liveData} /> 
         </>
       )}
       <Row gutter={[24, 24]}>

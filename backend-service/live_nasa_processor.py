@@ -1,5 +1,8 @@
 """
 Module for fetching and processing live MERRA-2 climate data from NASA Earthdata.
+
+This refactored version separates concerns into smaller, more manageable functions
+for improved readability and maintenance.
 """
 
 import sys
@@ -11,13 +14,16 @@ import numpy as np
 import xarray as xr
 import earthaccess
 import todi_engine
-import requests
 
-# --- Cache directory ---
+# --- Configuration Constants ---
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
+MERRA2_SHORT_NAME = "M2T1NXSLV"
+MERRA2_VERSION = "5.12.4"
+
+# Ensure the cache directory exists on startup
 os.makedirs(CACHE_DIR, exist_ok=True)
 
-# --- HELPER FUNCTIONS ---
+# --- Helper Functions ---
 
 
 def get_cache_filename(lat, lon, date):
@@ -27,14 +33,6 @@ def get_cache_filename(lat, lon, date):
     return os.path.join(CACHE_DIR, f"{hashed}.nc4")
 
 
-def safe_round(value, digits=2):
-    """Rounds a value safely, handling None or NaN."""
-    return None if value is None or np.isnan(value) else round(float(value), digits)
-
-
-# --- NEW: JSON COMPATIBILITY HELPER ---
-# This function ensures the final result doesn't contain special NumPy numbers
-# that would cause a crash when converting to JSON.
 def convert_numpy_types(data):
     """
     Recursively converts numpy number types in a dictionary to native Python types
@@ -44,7 +42,6 @@ def convert_numpy_types(data):
         return {key: convert_numpy_types(value) for key, value in data.items()}
     if isinstance(data, list):
         return [convert_numpy_types(item) for item in data]
-    # Check against the base classes for integers and floats
     if isinstance(data, np.integer):
         return int(data)
     if isinstance(data, np.floating):
@@ -54,97 +51,116 @@ def convert_numpy_types(data):
     return data
 
 
-# --- MAIN DATA PROCESSING FUNCTION ---
+# --- Core Logic Functions (Internal) ---
+
+
+def _authenticate_earthdata():
+    """Handles authentication with Earthdata using .netrc file."""
+    print("DEBUG: Authenticating with Earthdata...", file=sys.stderr)
+    auth = earthaccess.login(strategy="netrc")
+    if not auth.authenticated:
+        raise ConnectionError(
+            "Earthdata authentication failed. Check your .netrc file."
+        )
+    print("DEBUG: Authenticated successfully via .netrc", file=sys.stderr)
+
+
+def _search_and_download(lat, lon, date, cache_file):
+    """Searches for and downloads the required MERRA-2 data file."""
+    bounding_box = (float(lon), float(lat), float(lon) + 0.625, float(lat) + 0.5)
+
+    print("DEBUG: Searching for MERRA-2 granules...", file=sys.stderr)
+    results = earthaccess.search_data(
+        short_name=MERRA2_SHORT_NAME,
+        version=MERRA2_VERSION,
+        temporal=(date, date),
+        bounding_box=bounding_box,
+    )
+    print(f"DEBUG: Found {len(results)} results", file=sys.stderr)
+    if not results:
+        raise FileNotFoundError("No live data found for this location/date.")
+
+    print("DEBUG: Downloading MERRA-2 file using earthaccess...", file=sys.stderr)
+    downloaded_files = earthaccess.download(results, local_path=CACHE_DIR)
+
+    if (
+        not downloaded_files
+        or not os.path.exists(downloaded_files[0])
+        or os.path.getsize(downloaded_files[0]) == 0
+    ):
+        if downloaded_files and os.path.exists(downloaded_files[0]):
+            os.remove(downloaded_files[0])  # Clean up empty file
+        raise ConnectionError(
+            "Download failed: The downloaded file is missing or empty."
+        )
+
+    os.rename(downloaded_files[0], cache_file)
+    print(
+        f"DEBUG: Renamed downloaded file to cache file: {cache_file}", file=sys.stderr
+    )
+
+
+def _extract_metrics_from_dataset(ds):
+    """Extracts and calculates meteorological variables from the xarray dataset."""
+    try:
+        T2M = ds["T2M"].max().item()
+        U10M = ds["U10M"].max().item()
+        V10M = ds["V10M"].max().item()
+        T2MDEW = ds["T2MDEW"].mean().item()
+
+        daily_max_temp_c = T2M - 273.15
+        daily_max_wind_ms = np.sqrt(U10M**2 + V10M**2)
+        daily_dewpoint_c = T2MDEW - 273.15
+
+        todi_score = todi_engine.calculate_todi_score(
+            daily_max_temp_c, 65.0, daily_max_wind_ms
+        )
+
+        return {
+            "max_temp_celsius": daily_max_temp_c,
+            "dewpoint_celsius": daily_dewpoint_c,
+            "max_wind_speed_ms": daily_max_wind_ms,
+            "todi_score": todi_score,
+        }
+    except KeyError as e:
+        raise ValueError(f"Variable {e} not found in the dataset.") from e
+
+
+# --- Main Public Function ---
 
 
 def process_live_data(lat, lon, start_date, end_date):
     """
-    Fetches live MERRA-2 data, processes it, and returns a summary.
+    Main entry point to fetch, process, and summarize live MERRA-2 data.
     """
     try:
         print("--- DEBUG: Starting live_nasa_processor ---", file=sys.stderr)
-        print(f"DEBUG: lat={lat}, lon={lon}, start_date={start_date}", file=sys.stderr)
-
-        # Server-Side Authentication using .netrc file
-        auth = earthaccess.login(strategy="netrc")
-        if not auth.authenticated:
-            return {"error": "Earthdata authentication failed. Check your .netrc file."}
-        print(f"DEBUG: Authenticated successfully via .netrc", file=sys.stderr)
+        _authenticate_earthdata()
 
         cache_file = get_cache_filename(lat, lon, start_date)
-        if os.path.exists(cache_file):
-            print(f"DEBUG: Using cached file {cache_file}", file=sys.stderr)
-            ds = xr.open_dataset(cache_file)
+
+        if not os.path.exists(cache_file):
+            _search_and_download(lat, lon, start_date, cache_file)
         else:
-            # Search MERRA-2 granules
-            bounding_box = (
-                float(lon),
-                float(lat),
-                float(lon) + 0.625,
-                float(lat) + 0.5,
-            )
-            results = earthaccess.search_data(
-                short_name="M2T1NXSLV",
-                version="5.12.4",
-                temporal=(start_date, end_date),
-                bounding_box=bounding_box,
-            )
-            print(
-                f"DEBUG: search_data returned {len(results)} results", file=sys.stderr
-            )
-            if not results:
-                return {"error": "No live data found for this location/date."}
+            print(f"DEBUG: Using cached file {cache_file}", file=sys.stderr)
 
-            # Download using earthaccess for robustness
-            print(
-                "DEBUG: Downloading MERRA-2 file using earthaccess...", file=sys.stderr
-            )
-            downloaded_files = earthaccess.download(results, local_path=CACHE_DIR)
-            if not downloaded_files:
-                return {"error": "Data download from Earthdata failed."}
-
-            os.rename(downloaded_files[0], cache_file)
-            print(
-                f"DEBUG: Renamed downloaded file to cache file: {cache_file}",
-                file=sys.stderr,
-            )
-            ds = xr.open_dataset(cache_file)
-
-        # Extract variables with error handling
-        try:
-            T2M = ds["T2M"].max().item()
-            U10M = ds["U10M"].max().item()
-            V10M = ds["V10M"].max().item()
-            T2MDEW = ds["T2MDEW"].mean().item()
-        except KeyError as e:
-            return {"error": f"Variable {e} not found in the dataset."}
-
-        # Calculate metrics
-        daily_max_temp_c = safe_round(T2M - 273.15)
-        daily_max_wind_ms = safe_round(np.sqrt(U10M**2 + V10M**2))
-        daily_dewpoint_c = safe_round(T2MDEW - 273.15)
-        todi_score = todi_engine.calculate_todi_score(
-            daily_max_temp_c, 65.0, daily_max_wind_ms
-        )
-        todi_score = None if todi_score is None or np.isnan(todi_score) else todi_score
+        ds = xr.open_dataset(cache_file)
+        metrics = _extract_metrics_from_dataset(ds)
 
         result = {
             "location": f"Live Data for {lat}, {lon}",
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "daily_summary": {
                 "timestamps": [start_date],
-                "max_temp_celsius": [daily_max_temp_c],
-                "dewpoint_celsius": [daily_dewpoint_c],
-                "max_wind_speed_ms": [daily_max_wind_ms],
-                "todi_score": [todi_score],
+                "max_temp_celsius": [metrics["max_temp_celsius"]],
+                "dewpoint_celsius": [metrics["dewpoint_celsius"]],
+                "max_wind_speed_ms": [metrics["max_wind_speed_ms"]],
+                "todi_score": [metrics["todi_score"]],
             },
         }
 
-        print(f"DEBUG: Live NASA Analysis Finished", file=sys.stderr)
-
-        # FINAL STEP: Sanitize the dictionary before returning it
-        native_result = convert_numpy_types(result)
-        return native_result
+        print("DEBUG: Live NASA Analysis Finished", file=sys.stderr)
+        return convert_numpy_types(result)
 
     except Exception as e:
         import traceback
