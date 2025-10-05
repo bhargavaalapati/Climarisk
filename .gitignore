@@ -45,6 +45,7 @@
 
 backend
 backend-service/cache
+backend-service/__pycache__
 
 # ######################################
 # ### --- SENSITIVE INFORMATION --- ###
