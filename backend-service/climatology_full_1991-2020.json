@@ -1,0 +1,3299 @@
+{
+    "location": "Global Test Location",
+    "daily_climatology": {
+        "1": {
+            "p5_temp_celsius": 10.0,
+            "p75_temp_celsius": 17.0,
+            "p85_temp_celsius": 18.6,
+            "p95_temp_celsius": 21.5,
+            "p99_temp_celsius": 24.0,
+            "p95_wind_speed_ms": 8.0,
+            "rain_probability_percent": 0
+        },
+        "2": {
+            "p5_temp_celsius": 10.01,
+            "p75_temp_celsius": 17.01,
+            "p85_temp_celsius": 18.61,
+            "p95_temp_celsius": 21.51,
+            "p99_temp_celsius": 24.01,
+            "p95_wind_speed_ms": 8.0,
+            "rain_probability_percent": 0
+        },
+        "3": {
+            "p5_temp_celsius": 10.02,
+            "p75_temp_celsius": 17.02,
+            "p85_temp_celsius": 18.62,
+            "p95_temp_celsius": 21.52,
+            "p99_temp_celsius": 24.02,
+            "p95_wind_speed_ms": 8.01,
+            "rain_probability_percent": 0
+        },
+        "4": {
+            "p5_temp_celsius": 10.03,
+            "p75_temp_celsius": 17.03,
+            "p85_temp_celsius": 18.63,
+            "p95_temp_celsius": 21.53,
+            "p99_temp_celsius": 24.03,
+            "p95_wind_speed_ms": 8.01,
+            "rain_probability_percent": 0
+        },
+        "5": {
+            "p5_temp_celsius": 10.05,
+            "p75_temp_celsius": 17.05,
+            "p85_temp_celsius": 18.65,
+            "p95_temp_celsius": 21.55,
+            "p99_temp_celsius": 24.05,
+            "p95_wind_speed_ms": 8.02,
+            "rain_probability_percent": 0
+        },
+        "6": {
+            "p5_temp_celsius": 10.07,
+            "p75_temp_celsius": 17.07,
+            "p85_temp_celsius": 18.67,
+            "p95_temp_celsius": 21.57,
+            "p99_temp_celsius": 24.07,
+            "p95_wind_speed_ms": 8.03,
+            "rain_probability_percent": 0
+        },
+        "7": {
+            "p5_temp_celsius": 10.09,
+            "p75_temp_celsius": 17.09,
+            "p85_temp_celsius": 18.69,
+            "p95_temp_celsius": 21.59,
+            "p99_temp_celsius": 24.09,
+            "p95_wind_speed_ms": 8.04,
+            "rain_probability_percent": 0
+        },
+        "8": {
+            "p5_temp_celsius": 10.12,
+            "p75_temp_celsius": 17.12,
+            "p85_temp_celsius": 18.72,
+            "p95_temp_celsius": 21.62,
+            "p99_temp_celsius": 24.12,
+            "p95_wind_speed_ms": 8.06,
+            "rain_probability_percent": 0
+        },
+        "9": {
+            "p5_temp_celsius": 10.15,
+            "p75_temp_celsius": 17.15,
+            "p85_temp_celsius": 18.75,
+            "p95_temp_celsius": 21.65,
+            "p99_temp_celsius": 24.15,
+            "p95_wind_speed_ms": 8.07,
+            "rain_probability_percent": 0
+        },
+        "10": {
+            "p5_temp_celsius": 10.19,
+            "p75_temp_celsius": 17.19,
+            "p85_temp_celsius": 18.79,
+            "p95_temp_celsius": 21.69,
+            "p99_temp_celsius": 24.19,
+            "p95_wind_speed_ms": 8.09,
+            "rain_probability_percent": 0
+        },
+        "11": {
+            "p5_temp_celsius": 10.23,
+            "p75_temp_celsius": 17.23,
+            "p85_temp_celsius": 18.83,
+            "p95_temp_celsius": 21.73,
+            "p99_temp_celsius": 24.23,
+            "p95_wind_speed_ms": 8.11,
+            "rain_probability_percent": 0
+        },
+        "12": {
+            "p5_temp_celsius": 10.27,
+            "p75_temp_celsius": 17.27,
+            "p85_temp_celsius": 18.87,
+            "p95_temp_celsius": 21.77,
+            "p99_temp_celsius": 24.27,
+            "p95_wind_speed_ms": 8.13,
+            "rain_probability_percent": 0
+        },
+        "13": {
+            "p5_temp_celsius": 10.32,
+            "p75_temp_celsius": 17.32,
+            "p85_temp_celsius": 18.92,
+            "p95_temp_celsius": 21.82,
+            "p99_temp_celsius": 24.32,
+            "p95_wind_speed_ms": 8.15,
+            "rain_probability_percent": 0
+        },
+        "14": {
+            "p5_temp_celsius": 10.37,
+            "p75_temp_celsius": 17.37,
+            "p85_temp_celsius": 18.97,
+            "p95_temp_celsius": 21.87,
+            "p99_temp_celsius": 24.37,
+            "p95_wind_speed_ms": 8.17,
+            "rain_probability_percent": 0
+        },
+        "15": {
+            "p5_temp_celsius": 10.43,
+            "p75_temp_celsius": 17.43,
+            "p85_temp_celsius": 19.03,
+            "p95_temp_celsius": 21.93,
+            "p99_temp_celsius": 24.43,
+            "p95_wind_speed_ms": 8.2,
+            "rain_probability_percent": 0
+        },
+        "16": {
+            "p5_temp_celsius": 10.49,
+            "p75_temp_celsius": 17.49,
+            "p85_temp_celsius": 19.09,
+            "p95_temp_celsius": 21.99,
+            "p99_temp_celsius": 24.49,
+            "p95_wind_speed_ms": 8.22,
+            "rain_probability_percent": 0
+        },
+        "17": {
+            "p5_temp_celsius": 10.55,
+            "p75_temp_celsius": 17.55,
+            "p85_temp_celsius": 19.15,
+            "p95_temp_celsius": 22.05,
+            "p99_temp_celsius": 24.55,
+            "p95_wind_speed_ms": 8.25,
+            "rain_probability_percent": 1.32
+        },
+        "18": {
+            "p5_temp_celsius": 10.62,
+            "p75_temp_celsius": 17.62,
+            "p85_temp_celsius": 19.22,
+            "p95_temp_celsius": 22.12,
+            "p99_temp_celsius": 24.62,
+            "p95_wind_speed_ms": 8.28,
+            "rain_probability_percent": 0
+        },
+        "19": {
+            "p5_temp_celsius": 10.69,
+            "p75_temp_celsius": 17.69,
+            "p85_temp_celsius": 19.29,
+            "p95_temp_celsius": 22.19,
+            "p99_temp_celsius": 24.69,
+            "p95_wind_speed_ms": 8.32,
+            "rain_probability_percent": 0
+        },
+        "20": {
+            "p5_temp_celsius": 10.76,
+            "p75_temp_celsius": 17.76,
+            "p85_temp_celsius": 19.36,
+            "p95_temp_celsius": 22.26,
+            "p99_temp_celsius": 24.76,
+            "p95_wind_speed_ms": 8.35,
+            "rain_probability_percent": 0.57
+        },
+        "21": {
+            "p5_temp_celsius": 10.84,
+            "p75_temp_celsius": 17.84,
+            "p85_temp_celsius": 19.44,
+            "p95_temp_celsius": 22.34,
+            "p99_temp_celsius": 24.84,
+            "p95_wind_speed_ms": 8.39,
+            "rain_probability_percent": 0
+        },
+        "22": {
+            "p5_temp_celsius": 10.92,
+            "p75_temp_celsius": 17.92,
+            "p85_temp_celsius": 19.52,
+            "p95_temp_celsius": 22.42,
+            "p99_temp_celsius": 24.92,
+            "p95_wind_speed_ms": 8.42,
+            "rain_probability_percent": 0
+        },
+        "23": {
+            "p5_temp_celsius": 11.0,
+            "p75_temp_celsius": 18.0,
+            "p85_temp_celsius": 19.6,
+            "p95_temp_celsius": 22.5,
+            "p99_temp_celsius": 25.0,
+            "p95_wind_speed_ms": 8.46,
+            "rain_probability_percent": 0
+        },
+        "24": {
+            "p5_temp_celsius": 11.09,
+            "p75_temp_celsius": 18.09,
+            "p85_temp_celsius": 19.69,
+            "p95_temp_celsius": 22.59,
+            "p99_temp_celsius": 25.09,
+            "p95_wind_speed_ms": 8.5,
+            "rain_probability_percent": 0
+        },
+        "25": {
+            "p5_temp_celsius": 11.18,
+            "p75_temp_celsius": 18.18,
+            "p85_temp_celsius": 19.78,
+            "p95_temp_celsius": 22.68,
+            "p99_temp_celsius": 25.18,
+            "p95_wind_speed_ms": 8.54,
+            "rain_probability_percent": 0
+        },
+        "26": {
+            "p5_temp_celsius": 11.27,
+            "p75_temp_celsius": 18.27,
+            "p85_temp_celsius": 19.87,
+            "p95_temp_celsius": 22.77,
+            "p99_temp_celsius": 25.27,
+            "p95_wind_speed_ms": 8.59,
+            "rain_probability_percent": 1.12
+        },
+        "27": {
+            "p5_temp_celsius": 11.37,
+            "p75_temp_celsius": 18.37,
+            "p85_temp_celsius": 19.97,
+            "p95_temp_celsius": 22.87,
+            "p99_temp_celsius": 25.37,
+            "p95_wind_speed_ms": 8.63,
+            "rain_probability_percent": 0
+        },
+        "28": {
+            "p5_temp_celsius": 11.47,
+            "p75_temp_celsius": 18.47,
+            "p85_temp_celsius": 20.07,
+            "p95_temp_celsius": 22.97,
+            "p99_temp_celsius": 25.47,
+            "p95_wind_speed_ms": 8.68,
+            "rain_probability_percent": 0
+        },
+        "29": {
+            "p5_temp_celsius": 11.58,
+            "p75_temp_celsius": 18.58,
+            "p85_temp_celsius": 20.18,
+            "p95_temp_celsius": 23.08,
+            "p99_temp_celsius": 25.58,
+            "p95_wind_speed_ms": 8.73,
+            "rain_probability_percent": 0
+        },
+        "30": {
+            "p5_temp_celsius": 11.69,
+            "p75_temp_celsius": 18.69,
+            "p85_temp_celsius": 20.29,
+            "p95_temp_celsius": 23.19,
+            "p99_temp_celsius": 25.69,
+            "p95_wind_speed_ms": 8.78,
+            "rain_probability_percent": 0
+        },
+        "31": {
+            "p5_temp_celsius": 11.8,
+            "p75_temp_celsius": 18.8,
+            "p85_temp_celsius": 20.4,
+            "p95_temp_celsius": 23.3,
+            "p99_temp_celsius": 25.8,
+            "p95_wind_speed_ms": 8.83,
+            "rain_probability_percent": 0.43
+        },
+        "32": {
+            "p5_temp_celsius": 11.91,
+            "p75_temp_celsius": 18.91,
+            "p85_temp_celsius": 20.51,
+            "p95_temp_celsius": 23.41,
+            "p99_temp_celsius": 25.91,
+            "p95_wind_speed_ms": 8.88,
+            "rain_probability_percent": 2.03
+        },
+        "33": {
+            "p5_temp_celsius": 12.03,
+            "p75_temp_celsius": 19.03,
+            "p85_temp_celsius": 20.63,
+            "p95_temp_celsius": 23.53,
+            "p99_temp_celsius": 26.03,
+            "p95_wind_speed_ms": 8.94,
+            "rain_probability_percent": 0
+        },
+        "34": {
+            "p5_temp_celsius": 12.15,
+            "p75_temp_celsius": 19.15,
+            "p85_temp_celsius": 20.75,
+            "p95_temp_celsius": 23.65,
+            "p99_temp_celsius": 26.15,
+            "p95_wind_speed_ms": 8.99,
+            "rain_probability_percent": 0
+        },
+        "35": {
+            "p5_temp_celsius": 12.28,
+            "p75_temp_celsius": 19.28,
+            "p85_temp_celsius": 20.88,
+            "p95_temp_celsius": 23.78,
+            "p99_temp_celsius": 26.28,
+            "p95_wind_speed_ms": 9.05,
+            "rain_probability_percent": 0
+        },
+        "36": {
+            "p5_temp_celsius": 12.4,
+            "p75_temp_celsius": 19.4,
+            "p85_temp_celsius": 21.0,
+            "p95_temp_celsius": 23.9,
+            "p99_temp_celsius": 26.4,
+            "p95_wind_speed_ms": 9.11,
+            "rain_probability_percent": 0
+        },
+        "37": {
+            "p5_temp_celsius": 12.54,
+            "p75_temp_celsius": 19.54,
+            "p85_temp_celsius": 21.14,
+            "p95_temp_celsius": 24.04,
+            "p99_temp_celsius": 26.54,
+            "p95_wind_speed_ms": 9.17,
+            "rain_probability_percent": 0
+        },
+        "38": {
+            "p5_temp_celsius": 12.67,
+            "p75_temp_celsius": 19.67,
+            "p85_temp_celsius": 21.27,
+            "p95_temp_celsius": 24.17,
+            "p99_temp_celsius": 26.67,
+            "p95_wind_speed_ms": 9.23,
+            "rain_probability_percent": 0.3
+        },
+        "39": {
+            "p5_temp_celsius": 12.81,
+            "p75_temp_celsius": 19.81,
+            "p85_temp_celsius": 21.41,
+            "p95_temp_celsius": 24.31,
+            "p99_temp_celsius": 26.81,
+            "p95_wind_speed_ms": 9.3,
+            "rain_probability_percent": 0
+        },
+        "40": {
+            "p5_temp_celsius": 12.95,
+            "p75_temp_celsius": 19.95,
+            "p85_temp_celsius": 21.55,
+            "p95_temp_celsius": 24.45,
+            "p99_temp_celsius": 26.95,
+            "p95_wind_speed_ms": 9.36,
+            "rain_probability_percent": 5.62
+        },
+        "41": {
+            "p5_temp_celsius": 13.09,
+            "p75_temp_celsius": 20.09,
+            "p85_temp_celsius": 21.69,
+            "p95_temp_celsius": 24.59,
+            "p99_temp_celsius": 27.09,
+            "p95_wind_speed_ms": 9.43,
+            "rain_probability_percent": 0
+        },
+        "42": {
+            "p5_temp_celsius": 13.24,
+            "p75_temp_celsius": 20.24,
+            "p85_temp_celsius": 21.84,
+            "p95_temp_celsius": 24.74,
+            "p99_temp_celsius": 27.24,
+            "p95_wind_speed_ms": 9.49,
+            "rain_probability_percent": 0
+        },
+        "43": {
+            "p5_temp_celsius": 13.38,
+            "p75_temp_celsius": 20.38,
+            "p85_temp_celsius": 21.98,
+            "p95_temp_celsius": 24.88,
+            "p99_temp_celsius": 27.38,
+            "p95_wind_speed_ms": 9.56,
+            "rain_probability_percent": 0
+        },
+        "44": {
+            "p5_temp_celsius": 13.54,
+            "p75_temp_celsius": 20.54,
+            "p85_temp_celsius": 22.14,
+            "p95_temp_celsius": 25.04,
+            "p99_temp_celsius": 27.54,
+            "p95_wind_speed_ms": 9.63,
+            "rain_probability_percent": 6.39
+        },
+        "45": {
+            "p5_temp_celsius": 13.69,
+            "p75_temp_celsius": 20.69,
+            "p85_temp_celsius": 22.29,
+            "p95_temp_celsius": 25.19,
+            "p99_temp_celsius": 27.69,
+            "p95_wind_speed_ms": 9.7,
+            "rain_probability_percent": 0
+        },
+        "46": {
+            "p5_temp_celsius": 13.85,
+            "p75_temp_celsius": 20.85,
+            "p85_temp_celsius": 22.45,
+            "p95_temp_celsius": 25.35,
+            "p99_temp_celsius": 27.85,
+            "p95_wind_speed_ms": 9.78,
+            "rain_probability_percent": 0
+        },
+        "47": {
+            "p5_temp_celsius": 14.01,
+            "p75_temp_celsius": 21.01,
+            "p85_temp_celsius": 22.61,
+            "p95_temp_celsius": 25.51,
+            "p99_temp_celsius": 28.01,
+            "p95_wind_speed_ms": 9.85,
+            "rain_probability_percent": 0
+        },
+        "48": {
+            "p5_temp_celsius": 14.17,
+            "p75_temp_celsius": 21.17,
+            "p85_temp_celsius": 22.77,
+            "p95_temp_celsius": 25.67,
+            "p99_temp_celsius": 28.17,
+            "p95_wind_speed_ms": 9.92,
+            "rain_probability_percent": 8.24
+        },
+        "49": {
+            "p5_temp_celsius": 14.33,
+            "p75_temp_celsius": 21.33,
+            "p85_temp_celsius": 22.93,
+            "p95_temp_celsius": 25.83,
+            "p99_temp_celsius": 28.33,
+            "p95_wind_speed_ms": 10.0,
+            "rain_probability_percent": 0
+        },
+        "50": {
+            "p5_temp_celsius": 14.5,
+            "p75_temp_celsius": 21.5,
+            "p85_temp_celsius": 23.1,
+            "p95_temp_celsius": 26.0,
+            "p99_temp_celsius": 28.5,
+            "p95_wind_speed_ms": 10.08,
+            "rain_probability_percent": 0
+        },
+        "51": {
+            "p5_temp_celsius": 14.67,
+            "p75_temp_celsius": 21.67,
+            "p85_temp_celsius": 23.27,
+            "p95_temp_celsius": 26.17,
+            "p99_temp_celsius": 28.67,
+            "p95_wind_speed_ms": 10.16,
+            "rain_probability_percent": 0
+        },
+        "52": {
+            "p5_temp_celsius": 14.84,
+            "p75_temp_celsius": 21.84,
+            "p85_temp_celsius": 23.44,
+            "p95_temp_celsius": 26.34,
+            "p99_temp_celsius": 28.84,
+            "p95_wind_speed_ms": 10.24,
+            "rain_probability_percent": 13.12
+        },
+        "53": {
+            "p5_temp_celsius": 15.02,
+            "p75_temp_celsius": 22.02,
+            "p85_temp_celsius": 23.62,
+            "p95_temp_celsius": 26.52,
+            "p99_temp_celsius": 29.02,
+            "p95_wind_speed_ms": 10.32,
+            "rain_probability_percent": 6.93
+        },
+        "54": {
+            "p5_temp_celsius": 15.2,
+            "p75_temp_celsius": 22.2,
+            "p85_temp_celsius": 23.8,
+            "p95_temp_celsius": 26.7,
+            "p99_temp_celsius": 29.2,
+            "p95_wind_speed_ms": 10.4,
+            "rain_probability_percent": 6.77
+        },
+        "55": {
+            "p5_temp_celsius": 15.38,
+            "p75_temp_celsius": 22.38,
+            "p85_temp_celsius": 23.98,
+            "p95_temp_celsius": 26.88,
+            "p99_temp_celsius": 29.38,
+            "p95_wind_speed_ms": 10.48,
+            "rain_probability_percent": 8.17
+        },
+        "56": {
+            "p5_temp_celsius": 15.56,
+            "p75_temp_celsius": 22.56,
+            "p85_temp_celsius": 24.16,
+            "p95_temp_celsius": 27.06,
+            "p99_temp_celsius": 29.56,
+            "p95_wind_speed_ms": 10.57,
+            "rain_probability_percent": 9.34
+        },
+        "57": {
+            "p5_temp_celsius": 15.74,
+            "p75_temp_celsius": 22.74,
+            "p85_temp_celsius": 24.34,
+            "p95_temp_celsius": 27.24,
+            "p99_temp_celsius": 29.74,
+            "p95_wind_speed_ms": 10.65,
+            "rain_probability_percent": 14.68
+        },
+        "58": {
+            "p5_temp_celsius": 15.93,
+            "p75_temp_celsius": 22.93,
+            "p85_temp_celsius": 24.53,
+            "p95_temp_celsius": 27.43,
+            "p99_temp_celsius": 29.93,
+            "p95_wind_speed_ms": 10.74,
+            "rain_probability_percent": 15.91
+        },
+        "59": {
+            "p5_temp_celsius": 16.12,
+            "p75_temp_celsius": 23.12,
+            "p85_temp_celsius": 24.72,
+            "p95_temp_celsius": 27.62,
+            "p99_temp_celsius": 30.12,
+            "p95_wind_speed_ms": 10.82,
+            "rain_probability_percent": 11.76
+        },
+        "60": {
+            "p5_temp_celsius": 16.31,
+            "p75_temp_celsius": 23.31,
+            "p85_temp_celsius": 24.91,
+            "p95_temp_celsius": 27.81,
+            "p99_temp_celsius": 30.31,
+            "p95_wind_speed_ms": 10.91,
+            "rain_probability_percent": 11.94
+        },
+        "61": {
+            "p5_temp_celsius": 16.5,
+            "p75_temp_celsius": 23.5,
+            "p85_temp_celsius": 25.1,
+            "p95_temp_celsius": 28.0,
+            "p99_temp_celsius": 30.5,
+            "p95_wind_speed_ms": 11.0,
+            "rain_probability_percent": 14.14
+        },
+        "62": {
+            "p5_temp_celsius": 16.69,
+            "p75_temp_celsius": 23.69,
+            "p85_temp_celsius": 25.29,
+            "p95_temp_celsius": 28.19,
+            "p99_temp_celsius": 30.69,
+            "p95_wind_speed_ms": 11.09,
+            "rain_probability_percent": 16.83
+        },
+        "63": {
+            "p5_temp_celsius": 16.89,
+            "p75_temp_celsius": 23.89,
+            "p85_temp_celsius": 25.49,
+            "p95_temp_celsius": 28.39,
+            "p99_temp_celsius": 30.89,
+            "p95_wind_speed_ms": 11.18,
+            "rain_probability_percent": 16.09
+        },
+        "64": {
+            "p5_temp_celsius": 17.09,
+            "p75_temp_celsius": 24.09,
+            "p85_temp_celsius": 25.69,
+            "p95_temp_celsius": 28.59,
+            "p99_temp_celsius": 31.09,
+            "p95_wind_speed_ms": 11.27,
+            "rain_probability_percent": 19.91
+        },
+        "65": {
+            "p5_temp_celsius": 17.29,
+            "p75_temp_celsius": 24.29,
+            "p85_temp_celsius": 25.89,
+            "p95_temp_celsius": 28.79,
+            "p99_temp_celsius": 31.29,
+            "p95_wind_speed_ms": 11.36,
+            "rain_probability_percent": 5.78
+        },
+        "66": {
+            "p5_temp_celsius": 17.49,
+            "p75_temp_celsius": 24.49,
+            "p85_temp_celsius": 26.09,
+            "p95_temp_celsius": 28.99,
+            "p99_temp_celsius": 31.49,
+            "p95_wind_speed_ms": 11.46,
+            "rain_probability_percent": 9.03
+        },
+        "67": {
+            "p5_temp_celsius": 17.69,
+            "p75_temp_celsius": 24.69,
+            "p85_temp_celsius": 26.29,
+            "p95_temp_celsius": 29.19,
+            "p99_temp_celsius": 31.69,
+            "p95_wind_speed_ms": 11.55,
+            "rain_probability_percent": 6.51
+        },
+        "68": {
+            "p5_temp_celsius": 17.9,
+            "p75_temp_celsius": 24.9,
+            "p85_temp_celsius": 26.5,
+            "p95_temp_celsius": 29.4,
+            "p99_temp_celsius": 31.9,
+            "p95_wind_speed_ms": 11.64,
+            "rain_probability_percent": 19.19
+        },
+        "69": {
+            "p5_temp_celsius": 18.1,
+            "p75_temp_celsius": 25.1,
+            "p85_temp_celsius": 26.7,
+            "p95_temp_celsius": 29.6,
+            "p99_temp_celsius": 32.1,
+            "p95_wind_speed_ms": 11.74,
+            "rain_probability_percent": 13.02
+        },
+        "70": {
+            "p5_temp_celsius": 18.31,
+            "p75_temp_celsius": 25.31,
+            "p85_temp_celsius": 26.91,
+            "p95_temp_celsius": 29.81,
+            "p99_temp_celsius": 32.31,
+            "p95_wind_speed_ms": 11.84,
+            "rain_probability_percent": 21.95
+        },
+        "71": {
+            "p5_temp_celsius": 18.52,
+            "p75_temp_celsius": 25.52,
+            "p85_temp_celsius": 27.12,
+            "p95_temp_celsius": 30.02,
+            "p99_temp_celsius": 32.52,
+            "p95_wind_speed_ms": 11.93,
+            "rain_probability_percent": 18.06
+        },
+        "72": {
+            "p5_temp_celsius": 18.73,
+            "p75_temp_celsius": 25.73,
+            "p85_temp_celsius": 27.33,
+            "p95_temp_celsius": 30.23,
+            "p99_temp_celsius": 32.73,
+            "p95_wind_speed_ms": 12.03,
+            "rain_probability_percent": 9.8
+        },
+        "73": {
+            "p5_temp_celsius": 18.94,
+            "p75_temp_celsius": 25.94,
+            "p85_temp_celsius": 27.54,
+            "p95_temp_celsius": 30.44,
+            "p99_temp_celsius": 32.94,
+            "p95_wind_speed_ms": 12.13,
+            "rain_probability_percent": 26.11
+        },
+        "74": {
+            "p5_temp_celsius": 19.15,
+            "p75_temp_celsius": 26.15,
+            "p85_temp_celsius": 27.75,
+            "p95_temp_celsius": 30.65,
+            "p99_temp_celsius": 33.15,
+            "p95_wind_speed_ms": 12.22,
+            "rain_probability_percent": 17.87
+        },
+        "75": {
+            "p5_temp_celsius": 19.37,
+            "p75_temp_celsius": 26.37,
+            "p85_temp_celsius": 27.97,
+            "p95_temp_celsius": 30.87,
+            "p99_temp_celsius": 33.37,
+            "p95_wind_speed_ms": 12.32,
+            "rain_probability_percent": 16.97
+        },
+        "76": {
+            "p5_temp_celsius": 19.58,
+            "p75_temp_celsius": 26.58,
+            "p85_temp_celsius": 28.18,
+            "p95_temp_celsius": 31.08,
+            "p99_temp_celsius": 33.58,
+            "p95_wind_speed_ms": 12.42,
+            "rain_probability_percent": 20.19
+        },
+        "77": {
+            "p5_temp_celsius": 19.8,
+            "p75_temp_celsius": 26.8,
+            "p85_temp_celsius": 28.4,
+            "p95_temp_celsius": 31.3,
+            "p99_temp_celsius": 33.8,
+            "p95_wind_speed_ms": 12.52,
+            "rain_probability_percent": 10.85
+        },
+        "78": {
+            "p5_temp_celsius": 20.01,
+            "p75_temp_celsius": 27.01,
+            "p85_temp_celsius": 28.61,
+            "p95_temp_celsius": 31.51,
+            "p99_temp_celsius": 34.01,
+            "p95_wind_speed_ms": 12.62,
+            "rain_probability_percent": 14.9
+        },
+        "79": {
+            "p5_temp_celsius": 20.23,
+            "p75_temp_celsius": 27.23,
+            "p85_temp_celsius": 28.83,
+            "p95_temp_celsius": 31.73,
+            "p99_temp_celsius": 34.23,
+            "p95_wind_speed_ms": 12.72,
+            "rain_probability_percent": 18.21
+        },
+        "80": {
+            "p5_temp_celsius": 20.45,
+            "p75_temp_celsius": 27.45,
+            "p85_temp_celsius": 29.05,
+            "p95_temp_celsius": 31.95,
+            "p99_temp_celsius": 34.45,
+            "p95_wind_speed_ms": 12.82,
+            "rain_probability_percent": 24.4
+        },
+        "81": {
+            "p5_temp_celsius": 20.67,
+            "p75_temp_celsius": 27.67,
+            "p85_temp_celsius": 29.27,
+            "p95_temp_celsius": 32.17,
+            "p99_temp_celsius": 34.67,
+            "p95_wind_speed_ms": 12.92,
+            "rain_probability_percent": 15.93
+        },
+        "82": {
+            "p5_temp_celsius": 20.89,
+            "p75_temp_celsius": 27.89,
+            "p85_temp_celsius": 29.49,
+            "p95_temp_celsius": 32.39,
+            "p99_temp_celsius": 34.89,
+            "p95_wind_speed_ms": 13.03,
+            "rain_probability_percent": 14.85
+        },
+        "83": {
+            "p5_temp_celsius": 21.11,
+            "p75_temp_celsius": 28.11,
+            "p85_temp_celsius": 29.71,
+            "p95_temp_celsius": 32.61,
+            "p99_temp_celsius": 35.11,
+            "p95_wind_speed_ms": 13.13,
+            "rain_probability_percent": 32.91
+        },
+        "84": {
+            "p5_temp_celsius": 21.33,
+            "p75_temp_celsius": 28.33,
+            "p85_temp_celsius": 29.93,
+            "p95_temp_celsius": 32.83,
+            "p99_temp_celsius": 35.33,
+            "p95_wind_speed_ms": 13.23,
+            "rain_probability_percent": 32.87
+        },
+        "85": {
+            "p5_temp_celsius": 21.55,
+            "p75_temp_celsius": 28.55,
+            "p85_temp_celsius": 30.15,
+            "p95_temp_celsius": 33.05,
+            "p99_temp_celsius": 35.55,
+            "p95_wind_speed_ms": 13.33,
+            "rain_probability_percent": 18.02
+        },
+        "86": {
+            "p5_temp_celsius": 21.77,
+            "p75_temp_celsius": 28.77,
+            "p85_temp_celsius": 30.37,
+            "p95_temp_celsius": 33.27,
+            "p99_temp_celsius": 35.77,
+            "p95_wind_speed_ms": 13.43,
+            "rain_probability_percent": 34.75
+        },
+        "87": {
+            "p5_temp_celsius": 22.0,
+            "p75_temp_celsius": 29.0,
+            "p85_temp_celsius": 30.6,
+            "p95_temp_celsius": 33.5,
+            "p99_temp_celsius": 36.0,
+            "p95_wind_speed_ms": 13.54,
+            "rain_probability_percent": 29.5
+        },
+        "88": {
+            "p5_temp_celsius": 22.22,
+            "p75_temp_celsius": 29.22,
+            "p85_temp_celsius": 30.82,
+            "p95_temp_celsius": 33.72,
+            "p99_temp_celsius": 36.22,
+            "p95_wind_speed_ms": 13.64,
+            "rain_probability_percent": 37.07
+        },
+        "89": {
+            "p5_temp_celsius": 22.44,
+            "p75_temp_celsius": 29.44,
+            "p85_temp_celsius": 31.04,
+            "p95_temp_celsius": 33.94,
+            "p99_temp_celsius": 36.44,
+            "p95_wind_speed_ms": 13.74,
+            "rain_probability_percent": 32.45
+        },
+        "90": {
+            "p5_temp_celsius": 22.67,
+            "p75_temp_celsius": 29.67,
+            "p85_temp_celsius": 31.27,
+            "p95_temp_celsius": 34.17,
+            "p99_temp_celsius": 36.67,
+            "p95_wind_speed_ms": 13.85,
+            "rain_probability_percent": 29.56
+        },
+        "91": {
+            "p5_temp_celsius": 22.89,
+            "p75_temp_celsius": 29.89,
+            "p85_temp_celsius": 31.49,
+            "p95_temp_celsius": 34.39,
+            "p99_temp_celsius": 36.89,
+            "p95_wind_speed_ms": 13.95,
+            "rain_probability_percent": 34.65
+        },
+        "92": {
+            "p5_temp_celsius": 23.11,
+            "p75_temp_celsius": 30.11,
+            "p85_temp_celsius": 31.71,
+            "p95_temp_celsius": 34.61,
+            "p99_temp_celsius": 37.11,
+            "p95_wind_speed_ms": 14.05,
+            "rain_probability_percent": 28.52
+        },
+        "93": {
+            "p5_temp_celsius": 23.33,
+            "p75_temp_celsius": 30.33,
+            "p85_temp_celsius": 31.93,
+            "p95_temp_celsius": 34.83,
+            "p99_temp_celsius": 37.33,
+            "p95_wind_speed_ms": 14.15,
+            "rain_probability_percent": 39.82
+        },
+        "94": {
+            "p5_temp_celsius": 23.56,
+            "p75_temp_celsius": 30.56,
+            "p85_temp_celsius": 32.16,
+            "p95_temp_celsius": 35.06,
+            "p99_temp_celsius": 37.56,
+            "p95_wind_speed_ms": 14.26,
+            "rain_probability_percent": 22.57
+        },
+        "95": {
+            "p5_temp_celsius": 23.78,
+            "p75_temp_celsius": 30.78,
+            "p85_temp_celsius": 32.38,
+            "p95_temp_celsius": 35.28,
+            "p99_temp_celsius": 37.78,
+            "p95_wind_speed_ms": 14.36,
+            "rain_probability_percent": 34.25
+        },
+        "96": {
+            "p5_temp_celsius": 24.0,
+            "p75_temp_celsius": 31.0,
+            "p85_temp_celsius": 32.6,
+            "p95_temp_celsius": 35.5,
+            "p99_temp_celsius": 38.0,
+            "p95_wind_speed_ms": 14.46,
+            "rain_probability_percent": 37.63
+        },
+        "97": {
+            "p5_temp_celsius": 24.23,
+            "p75_temp_celsius": 31.23,
+            "p85_temp_celsius": 32.83,
+            "p95_temp_celsius": 35.73,
+            "p99_temp_celsius": 38.23,
+            "p95_wind_speed_ms": 14.57,
+            "rain_probability_percent": 32.79
+        },
+        "98": {
+            "p5_temp_celsius": 24.45,
+            "p75_temp_celsius": 31.45,
+            "p85_temp_celsius": 33.05,
+            "p95_temp_celsius": 35.95,
+            "p99_temp_celsius": 38.45,
+            "p95_wind_speed_ms": 14.67,
+            "rain_probability_percent": 40.58
+        },
+        "99": {
+            "p5_temp_celsius": 24.67,
+            "p75_temp_celsius": 31.67,
+            "p85_temp_celsius": 33.27,
+            "p95_temp_celsius": 36.17,
+            "p99_temp_celsius": 38.67,
+            "p95_wind_speed_ms": 14.77,
+            "rain_probability_percent": 42.91
+        },
+        "100": {
+            "p5_temp_celsius": 24.89,
+            "p75_temp_celsius": 31.89,
+            "p85_temp_celsius": 33.49,
+            "p95_temp_celsius": 36.39,
+            "p99_temp_celsius": 38.89,
+            "p95_wind_speed_ms": 14.87,
+            "rain_probability_percent": 32.69
+        },
+        "101": {
+            "p5_temp_celsius": 25.11,
+            "p75_temp_celsius": 32.11,
+            "p85_temp_celsius": 33.71,
+            "p95_temp_celsius": 36.61,
+            "p99_temp_celsius": 39.11,
+            "p95_wind_speed_ms": 14.97,
+            "rain_probability_percent": 38.98
+        },
+        "102": {
+            "p5_temp_celsius": 25.33,
+            "p75_temp_celsius": 32.33,
+            "p85_temp_celsius": 33.93,
+            "p95_temp_celsius": 36.83,
+            "p99_temp_celsius": 39.33,
+            "p95_wind_speed_ms": 15.08,
+            "rain_probability_percent": 43.82
+        },
+        "103": {
+            "p5_temp_celsius": 25.55,
+            "p75_temp_celsius": 32.55,
+            "p85_temp_celsius": 34.15,
+            "p95_temp_celsius": 37.05,
+            "p99_temp_celsius": 39.55,
+            "p95_wind_speed_ms": 15.18,
+            "rain_probability_percent": 38.39
+        },
+        "104": {
+            "p5_temp_celsius": 25.77,
+            "p75_temp_celsius": 32.77,
+            "p85_temp_celsius": 34.37,
+            "p95_temp_celsius": 37.27,
+            "p99_temp_celsius": 39.77,
+            "p95_wind_speed_ms": 15.28,
+            "rain_probability_percent": 36.73
+        },
+        "105": {
+            "p5_temp_celsius": 25.99,
+            "p75_temp_celsius": 32.99,
+            "p85_temp_celsius": 34.59,
+            "p95_temp_celsius": 37.49,
+            "p99_temp_celsius": 39.99,
+            "p95_wind_speed_ms": 15.38,
+            "rain_probability_percent": 45.5
+        },
+        "106": {
+            "p5_temp_celsius": 26.2,
+            "p75_temp_celsius": 33.2,
+            "p85_temp_celsius": 34.8,
+            "p95_temp_celsius": 37.7,
+            "p99_temp_celsius": 40.2,
+            "p95_wind_speed_ms": 15.48,
+            "rain_probability_percent": 32.82
+        },
+        "107": {
+            "p5_temp_celsius": 26.42,
+            "p75_temp_celsius": 33.42,
+            "p85_temp_celsius": 35.02,
+            "p95_temp_celsius": 37.92,
+            "p99_temp_celsius": 40.42,
+            "p95_wind_speed_ms": 15.58,
+            "rain_probability_percent": 31.18
+        },
+        "108": {
+            "p5_temp_celsius": 26.63,
+            "p75_temp_celsius": 33.63,
+            "p85_temp_celsius": 35.23,
+            "p95_temp_celsius": 38.13,
+            "p99_temp_celsius": 40.63,
+            "p95_wind_speed_ms": 15.68,
+            "rain_probability_percent": 32.94
+        },
+        "109": {
+            "p5_temp_celsius": 26.85,
+            "p75_temp_celsius": 33.85,
+            "p85_temp_celsius": 35.45,
+            "p95_temp_celsius": 38.35,
+            "p99_temp_celsius": 40.85,
+            "p95_wind_speed_ms": 15.78,
+            "rain_probability_percent": 42.82
+        },
+        "110": {
+            "p5_temp_celsius": 27.06,
+            "p75_temp_celsius": 34.06,
+            "p85_temp_celsius": 35.66,
+            "p95_temp_celsius": 38.56,
+            "p99_temp_celsius": 41.06,
+            "p95_wind_speed_ms": 15.87,
+            "rain_probability_percent": 37.87
+        },
+        "111": {
+            "p5_temp_celsius": 27.27,
+            "p75_temp_celsius": 34.27,
+            "p85_temp_celsius": 35.87,
+            "p95_temp_celsius": 38.77,
+            "p99_temp_celsius": 41.27,
+            "p95_wind_speed_ms": 15.97,
+            "rain_probability_percent": 52.14
+        },
+        "112": {
+            "p5_temp_celsius": 27.48,
+            "p75_temp_celsius": 34.48,
+            "p85_temp_celsius": 36.08,
+            "p95_temp_celsius": 38.98,
+            "p99_temp_celsius": 41.48,
+            "p95_wind_speed_ms": 16.07,
+            "rain_probability_percent": 50.06
+        },
+        "113": {
+            "p5_temp_celsius": 27.69,
+            "p75_temp_celsius": 34.69,
+            "p85_temp_celsius": 36.29,
+            "p95_temp_celsius": 39.19,
+            "p99_temp_celsius": 41.69,
+            "p95_wind_speed_ms": 16.16,
+            "rain_probability_percent": 42.75
+        },
+        "114": {
+            "p5_temp_celsius": 27.9,
+            "p75_temp_celsius": 34.9,
+            "p85_temp_celsius": 36.5,
+            "p95_temp_celsius": 39.4,
+            "p99_temp_celsius": 41.9,
+            "p95_wind_speed_ms": 16.26,
+            "rain_probability_percent": 45.54
+        },
+        "115": {
+            "p5_temp_celsius": 28.1,
+            "p75_temp_celsius": 35.1,
+            "p85_temp_celsius": 36.7,
+            "p95_temp_celsius": 39.6,
+            "p99_temp_celsius": 42.1,
+            "p95_wind_speed_ms": 16.36,
+            "rain_probability_percent": 45.17
+        },
+        "116": {
+            "p5_temp_celsius": 28.31,
+            "p75_temp_celsius": 35.31,
+            "p85_temp_celsius": 36.91,
+            "p95_temp_celsius": 39.81,
+            "p99_temp_celsius": 42.31,
+            "p95_wind_speed_ms": 16.45,
+            "rain_probability_percent": 41.54
+        },
+        "117": {
+            "p5_temp_celsius": 28.51,
+            "p75_temp_celsius": 35.51,
+            "p85_temp_celsius": 37.11,
+            "p95_temp_celsius": 40.01,
+            "p99_temp_celsius": 42.51,
+            "p95_wind_speed_ms": 16.54,
+            "rain_probability_percent": 37.27
+        },
+        "118": {
+            "p5_temp_celsius": 28.71,
+            "p75_temp_celsius": 35.71,
+            "p85_temp_celsius": 37.31,
+            "p95_temp_celsius": 40.21,
+            "p99_temp_celsius": 42.71,
+            "p95_wind_speed_ms": 16.64,
+            "rain_probability_percent": 52.3
+        },
+        "119": {
+            "p5_temp_celsius": 28.91,
+            "p75_temp_celsius": 35.91,
+            "p85_temp_celsius": 37.51,
+            "p95_temp_celsius": 40.41,
+            "p99_temp_celsius": 42.91,
+            "p95_wind_speed_ms": 16.73,
+            "rain_probability_percent": 45.27
+        },
+        "120": {
+            "p5_temp_celsius": 29.11,
+            "p75_temp_celsius": 36.11,
+            "p85_temp_celsius": 37.71,
+            "p95_temp_celsius": 40.61,
+            "p99_temp_celsius": 43.11,
+            "p95_wind_speed_ms": 16.82,
+            "rain_probability_percent": 42.18
+        },
+        "121": {
+            "p5_temp_celsius": 29.31,
+            "p75_temp_celsius": 36.31,
+            "p85_temp_celsius": 37.91,
+            "p95_temp_celsius": 40.81,
+            "p99_temp_celsius": 43.31,
+            "p95_wind_speed_ms": 16.91,
+            "rain_probability_percent": 58.09
+        },
+        "122": {
+            "p5_temp_celsius": 29.5,
+            "p75_temp_celsius": 36.5,
+            "p85_temp_celsius": 38.1,
+            "p95_temp_celsius": 41.0,
+            "p99_temp_celsius": 43.5,
+            "p95_wind_speed_ms": 17.0,
+            "rain_probability_percent": 57.98
+        },
+        "123": {
+            "p5_temp_celsius": 29.69,
+            "p75_temp_celsius": 36.69,
+            "p85_temp_celsius": 38.29,
+            "p95_temp_celsius": 41.19,
+            "p99_temp_celsius": 43.69,
+            "p95_wind_speed_ms": 17.09,
+            "rain_probability_percent": 44.86
+        },
+        "124": {
+            "p5_temp_celsius": 29.88,
+            "p75_temp_celsius": 36.88,
+            "p85_temp_celsius": 38.48,
+            "p95_temp_celsius": 41.38,
+            "p99_temp_celsius": 43.88,
+            "p95_wind_speed_ms": 17.18,
+            "rain_probability_percent": 49.51
+        },
+        "125": {
+            "p5_temp_celsius": 30.07,
+            "p75_temp_celsius": 37.07,
+            "p85_temp_celsius": 38.67,
+            "p95_temp_celsius": 41.57,
+            "p99_temp_celsius": 44.07,
+            "p95_wind_speed_ms": 17.26,
+            "rain_probability_percent": 58.83
+        },
+        "126": {
+            "p5_temp_celsius": 30.26,
+            "p75_temp_celsius": 37.26,
+            "p85_temp_celsius": 38.86,
+            "p95_temp_celsius": 41.76,
+            "p99_temp_celsius": 44.26,
+            "p95_wind_speed_ms": 17.35,
+            "rain_probability_percent": 54.12
+        },
+        "127": {
+            "p5_temp_celsius": 30.44,
+            "p75_temp_celsius": 37.44,
+            "p85_temp_celsius": 39.04,
+            "p95_temp_celsius": 41.94,
+            "p99_temp_celsius": 44.44,
+            "p95_wind_speed_ms": 17.43,
+            "rain_probability_percent": 57.18
+        },
+        "128": {
+            "p5_temp_celsius": 30.62,
+            "p75_temp_celsius": 37.62,
+            "p85_temp_celsius": 39.22,
+            "p95_temp_celsius": 42.12,
+            "p99_temp_celsius": 44.62,
+            "p95_wind_speed_ms": 17.52,
+            "rain_probability_percent": 56.37
+        },
+        "129": {
+            "p5_temp_celsius": 30.8,
+            "p75_temp_celsius": 37.8,
+            "p85_temp_celsius": 39.4,
+            "p95_temp_celsius": 42.3,
+            "p99_temp_celsius": 44.8,
+            "p95_wind_speed_ms": 17.6,
+            "rain_probability_percent": 55.68
+        },
+        "130": {
+            "p5_temp_celsius": 30.98,
+            "p75_temp_celsius": 37.98,
+            "p85_temp_celsius": 39.58,
+            "p95_temp_celsius": 42.48,
+            "p99_temp_celsius": 44.98,
+            "p95_wind_speed_ms": 17.68,
+            "rain_probability_percent": 53.92
+        },
+        "131": {
+            "p5_temp_celsius": 31.16,
+            "p75_temp_celsius": 38.16,
+            "p85_temp_celsius": 39.76,
+            "p95_temp_celsius": 42.66,
+            "p99_temp_celsius": 45.16,
+            "p95_wind_speed_ms": 17.76,
+            "rain_probability_percent": 58.27
+        },
+        "132": {
+            "p5_temp_celsius": 31.33,
+            "p75_temp_celsius": 38.33,
+            "p85_temp_celsius": 39.93,
+            "p95_temp_celsius": 42.83,
+            "p99_temp_celsius": 45.33,
+            "p95_wind_speed_ms": 17.84,
+            "rain_probability_percent": 55.52
+        },
+        "133": {
+            "p5_temp_celsius": 31.5,
+            "p75_temp_celsius": 38.5,
+            "p85_temp_celsius": 40.1,
+            "p95_temp_celsius": 43.0,
+            "p99_temp_celsius": 45.5,
+            "p95_wind_speed_ms": 17.92,
+            "rain_probability_percent": 64.63
+        },
+        "134": {
+            "p5_temp_celsius": 31.67,
+            "p75_temp_celsius": 38.67,
+            "p85_temp_celsius": 40.27,
+            "p95_temp_celsius": 43.17,
+            "p99_temp_celsius": 45.67,
+            "p95_wind_speed_ms": 18.0,
+            "rain_probability_percent": 62.49
+        },
+        "135": {
+            "p5_temp_celsius": 31.83,
+            "p75_temp_celsius": 38.83,
+            "p85_temp_celsius": 40.43,
+            "p95_temp_celsius": 43.33,
+            "p99_temp_celsius": 45.83,
+            "p95_wind_speed_ms": 18.08,
+            "rain_probability_percent": 61.18
+        },
+        "136": {
+            "p5_temp_celsius": 31.99,
+            "p75_temp_celsius": 38.99,
+            "p85_temp_celsius": 40.59,
+            "p95_temp_celsius": 43.49,
+            "p99_temp_celsius": 45.99,
+            "p95_wind_speed_ms": 18.15,
+            "rain_probability_percent": 58.59
+        },
+        "137": {
+            "p5_temp_celsius": 32.15,
+            "p75_temp_celsius": 39.15,
+            "p85_temp_celsius": 40.75,
+            "p95_temp_celsius": 43.65,
+            "p99_temp_celsius": 46.15,
+            "p95_wind_speed_ms": 18.22,
+            "rain_probability_percent": 66.06
+        },
+        "138": {
+            "p5_temp_celsius": 32.31,
+            "p75_temp_celsius": 39.31,
+            "p85_temp_celsius": 40.91,
+            "p95_temp_celsius": 43.81,
+            "p99_temp_celsius": 46.31,
+            "p95_wind_speed_ms": 18.3,
+            "rain_probability_percent": 53.29
+        },
+        "139": {
+            "p5_temp_celsius": 32.46,
+            "p75_temp_celsius": 39.46,
+            "p85_temp_celsius": 41.06,
+            "p95_temp_celsius": 43.96,
+            "p99_temp_celsius": 46.46,
+            "p95_wind_speed_ms": 18.37,
+            "rain_probability_percent": 60.74
+        },
+        "140": {
+            "p5_temp_celsius": 32.62,
+            "p75_temp_celsius": 39.62,
+            "p85_temp_celsius": 41.22,
+            "p95_temp_celsius": 44.12,
+            "p99_temp_celsius": 46.62,
+            "p95_wind_speed_ms": 18.44,
+            "rain_probability_percent": 63.92
+        },
+        "141": {
+            "p5_temp_celsius": 32.76,
+            "p75_temp_celsius": 39.76,
+            "p85_temp_celsius": 41.36,
+            "p95_temp_celsius": 44.26,
+            "p99_temp_celsius": 46.76,
+            "p95_wind_speed_ms": 18.51,
+            "rain_probability_percent": 51.74
+        },
+        "142": {
+            "p5_temp_celsius": 32.91,
+            "p75_temp_celsius": 39.91,
+            "p85_temp_celsius": 41.51,
+            "p95_temp_celsius": 44.41,
+            "p99_temp_celsius": 46.91,
+            "p95_wind_speed_ms": 18.57,
+            "rain_probability_percent": 68.31
+        },
+        "143": {
+            "p5_temp_celsius": 33.05,
+            "p75_temp_celsius": 40.05,
+            "p85_temp_celsius": 41.65,
+            "p95_temp_celsius": 44.55,
+            "p99_temp_celsius": 47.05,
+            "p95_wind_speed_ms": 18.64,
+            "rain_probability_percent": 69.33
+        },
+        "144": {
+            "p5_temp_celsius": 33.19,
+            "p75_temp_celsius": 40.19,
+            "p85_temp_celsius": 41.79,
+            "p95_temp_celsius": 44.69,
+            "p99_temp_celsius": 47.19,
+            "p95_wind_speed_ms": 18.7,
+            "rain_probability_percent": 68.18
+        },
+        "145": {
+            "p5_temp_celsius": 33.33,
+            "p75_temp_celsius": 40.33,
+            "p85_temp_celsius": 41.93,
+            "p95_temp_celsius": 44.83,
+            "p99_temp_celsius": 47.33,
+            "p95_wind_speed_ms": 18.77,
+            "rain_probability_percent": 71.33
+        },
+        "146": {
+            "p5_temp_celsius": 33.46,
+            "p75_temp_celsius": 40.46,
+            "p85_temp_celsius": 42.06,
+            "p95_temp_celsius": 44.96,
+            "p99_temp_celsius": 47.46,
+            "p95_wind_speed_ms": 18.83,
+            "rain_probability_percent": 56.95
+        },
+        "147": {
+            "p5_temp_celsius": 33.6,
+            "p75_temp_celsius": 40.6,
+            "p85_temp_celsius": 42.2,
+            "p95_temp_celsius": 45.1,
+            "p99_temp_celsius": 47.6,
+            "p95_wind_speed_ms": 18.89,
+            "rain_probability_percent": 62.28
+        },
+        "148": {
+            "p5_temp_celsius": 33.72,
+            "p75_temp_celsius": 40.72,
+            "p85_temp_celsius": 42.32,
+            "p95_temp_celsius": 45.22,
+            "p99_temp_celsius": 47.72,
+            "p95_wind_speed_ms": 18.95,
+            "rain_probability_percent": 57.54
+        },
+        "149": {
+            "p5_temp_celsius": 33.85,
+            "p75_temp_celsius": 40.85,
+            "p85_temp_celsius": 42.45,
+            "p95_temp_celsius": 45.35,
+            "p99_temp_celsius": 47.85,
+            "p95_wind_speed_ms": 19.01,
+            "rain_probability_percent": 68.36
+        },
+        "150": {
+            "p5_temp_celsius": 33.97,
+            "p75_temp_celsius": 40.97,
+            "p85_temp_celsius": 42.57,
+            "p95_temp_celsius": 45.47,
+            "p99_temp_celsius": 47.97,
+            "p95_wind_speed_ms": 19.06,
+            "rain_probability_percent": 63.21
+        },
+        "151": {
+            "p5_temp_celsius": 34.09,
+            "p75_temp_celsius": 41.09,
+            "p85_temp_celsius": 42.69,
+            "p95_temp_celsius": 45.59,
+            "p99_temp_celsius": 48.09,
+            "p95_wind_speed_ms": 19.12,
+            "rain_probability_percent": 66.49
+        },
+        "152": {
+            "p5_temp_celsius": 34.2,
+            "p75_temp_celsius": 41.2,
+            "p85_temp_celsius": 42.8,
+            "p95_temp_celsius": 45.7,
+            "p99_temp_celsius": 48.2,
+            "p95_wind_speed_ms": 19.17,
+            "rain_probability_percent": 71.69
+        },
+        "153": {
+            "p5_temp_celsius": 34.31,
+            "p75_temp_celsius": 41.31,
+            "p85_temp_celsius": 42.91,
+            "p95_temp_celsius": 45.81,
+            "p99_temp_celsius": 48.31,
+            "p95_wind_speed_ms": 19.22,
+            "rain_probability_percent": 72.51
+        },
+        "154": {
+            "p5_temp_celsius": 34.42,
+            "p75_temp_celsius": 41.42,
+            "p85_temp_celsius": 43.02,
+            "p95_temp_celsius": 45.92,
+            "p99_temp_celsius": 48.42,
+            "p95_wind_speed_ms": 19.27,
+            "rain_probability_percent": 60.14
+        },
+        "155": {
+            "p5_temp_celsius": 34.53,
+            "p75_temp_celsius": 41.53,
+            "p85_temp_celsius": 43.13,
+            "p95_temp_celsius": 46.03,
+            "p99_temp_celsius": 48.53,
+            "p95_wind_speed_ms": 19.32,
+            "rain_probability_percent": 60.3
+        },
+        "156": {
+            "p5_temp_celsius": 34.63,
+            "p75_temp_celsius": 41.63,
+            "p85_temp_celsius": 43.23,
+            "p95_temp_celsius": 46.13,
+            "p99_temp_celsius": 48.63,
+            "p95_wind_speed_ms": 19.37,
+            "rain_probability_percent": 75.11
+        },
+        "157": {
+            "p5_temp_celsius": 34.73,
+            "p75_temp_celsius": 41.73,
+            "p85_temp_celsius": 43.33,
+            "p95_temp_celsius": 46.23,
+            "p99_temp_celsius": 48.73,
+            "p95_wind_speed_ms": 19.41,
+            "rain_probability_percent": 75.83
+        },
+        "158": {
+            "p5_temp_celsius": 34.82,
+            "p75_temp_celsius": 41.82,
+            "p85_temp_celsius": 43.42,
+            "p95_temp_celsius": 46.32,
+            "p99_temp_celsius": 48.82,
+            "p95_wind_speed_ms": 19.46,
+            "rain_probability_percent": 60.44
+        },
+        "159": {
+            "p5_temp_celsius": 34.91,
+            "p75_temp_celsius": 41.91,
+            "p85_temp_celsius": 43.51,
+            "p95_temp_celsius": 46.41,
+            "p99_temp_celsius": 48.91,
+            "p95_wind_speed_ms": 19.5,
+            "rain_probability_percent": 74.57
+        },
+        "160": {
+            "p5_temp_celsius": 35.0,
+            "p75_temp_celsius": 42.0,
+            "p85_temp_celsius": 43.6,
+            "p95_temp_celsius": 46.5,
+            "p99_temp_celsius": 49.0,
+            "p95_wind_speed_ms": 19.54,
+            "rain_probability_percent": 58.67
+        },
+        "161": {
+            "p5_temp_celsius": 35.08,
+            "p75_temp_celsius": 42.08,
+            "p85_temp_celsius": 43.68,
+            "p95_temp_celsius": 46.58,
+            "p99_temp_celsius": 49.08,
+            "p95_wind_speed_ms": 19.58,
+            "rain_probability_percent": 57.5
+        },
+        "162": {
+            "p5_temp_celsius": 35.16,
+            "p75_temp_celsius": 42.16,
+            "p85_temp_celsius": 43.76,
+            "p95_temp_celsius": 46.66,
+            "p99_temp_celsius": 49.16,
+            "p95_wind_speed_ms": 19.61,
+            "rain_probability_percent": 68.51
+        },
+        "163": {
+            "p5_temp_celsius": 35.24,
+            "p75_temp_celsius": 42.24,
+            "p85_temp_celsius": 43.84,
+            "p95_temp_celsius": 46.74,
+            "p99_temp_celsius": 49.24,
+            "p95_wind_speed_ms": 19.65,
+            "rain_probability_percent": 75.64
+        },
+        "164": {
+            "p5_temp_celsius": 35.31,
+            "p75_temp_celsius": 42.31,
+            "p85_temp_celsius": 43.91,
+            "p95_temp_celsius": 46.81,
+            "p99_temp_celsius": 49.31,
+            "p95_wind_speed_ms": 19.68,
+            "rain_probability_percent": 62.87
+        },
+        "165": {
+            "p5_temp_celsius": 35.38,
+            "p75_temp_celsius": 42.38,
+            "p85_temp_celsius": 43.98,
+            "p95_temp_celsius": 46.88,
+            "p99_temp_celsius": 49.38,
+            "p95_wind_speed_ms": 19.72,
+            "rain_probability_percent": 69.84
+        },
+        "166": {
+            "p5_temp_celsius": 35.45,
+            "p75_temp_celsius": 42.45,
+            "p85_temp_celsius": 44.05,
+            "p95_temp_celsius": 46.95,
+            "p99_temp_celsius": 49.45,
+            "p95_wind_speed_ms": 19.75,
+            "rain_probability_percent": 72.43
+        },
+        "167": {
+            "p5_temp_celsius": 35.51,
+            "p75_temp_celsius": 42.51,
+            "p85_temp_celsius": 44.11,
+            "p95_temp_celsius": 47.01,
+            "p99_temp_celsius": 49.51,
+            "p95_wind_speed_ms": 19.78,
+            "rain_probability_percent": 77.33
+        },
+        "168": {
+            "p5_temp_celsius": 35.57,
+            "p75_temp_celsius": 42.57,
+            "p85_temp_celsius": 44.17,
+            "p95_temp_celsius": 47.07,
+            "p99_temp_celsius": 49.57,
+            "p95_wind_speed_ms": 19.8,
+            "rain_probability_percent": 65.12
+        },
+        "169": {
+            "p5_temp_celsius": 35.63,
+            "p75_temp_celsius": 42.63,
+            "p85_temp_celsius": 44.23,
+            "p95_temp_celsius": 47.13,
+            "p99_temp_celsius": 49.63,
+            "p95_wind_speed_ms": 19.83,
+            "rain_probability_percent": 64.53
+        },
+        "170": {
+            "p5_temp_celsius": 35.68,
+            "p75_temp_celsius": 42.68,
+            "p85_temp_celsius": 44.28,
+            "p95_temp_celsius": 47.18,
+            "p99_temp_celsius": 49.68,
+            "p95_wind_speed_ms": 19.85,
+            "rain_probability_percent": 68.02
+        },
+        "171": {
+            "p5_temp_celsius": 35.73,
+            "p75_temp_celsius": 42.73,
+            "p85_temp_celsius": 44.33,
+            "p95_temp_celsius": 47.23,
+            "p99_temp_celsius": 49.73,
+            "p95_wind_speed_ms": 19.87,
+            "rain_probability_percent": 77.36
+        },
+        "172": {
+            "p5_temp_celsius": 35.77,
+            "p75_temp_celsius": 42.77,
+            "p85_temp_celsius": 44.37,
+            "p95_temp_celsius": 47.27,
+            "p99_temp_celsius": 49.77,
+            "p95_wind_speed_ms": 19.89,
+            "rain_probability_percent": 78.64
+        },
+        "173": {
+            "p5_temp_celsius": 35.81,
+            "p75_temp_celsius": 42.81,
+            "p85_temp_celsius": 44.41,
+            "p95_temp_celsius": 47.31,
+            "p99_temp_celsius": 49.81,
+            "p95_wind_speed_ms": 19.91,
+            "rain_probability_percent": 70.84
+        },
+        "174": {
+            "p5_temp_celsius": 35.85,
+            "p75_temp_celsius": 42.85,
+            "p85_temp_celsius": 44.45,
+            "p95_temp_celsius": 47.35,
+            "p99_temp_celsius": 49.85,
+            "p95_wind_speed_ms": 19.93,
+            "rain_probability_percent": 69.41
+        },
+        "175": {
+            "p5_temp_celsius": 35.88,
+            "p75_temp_celsius": 42.88,
+            "p85_temp_celsius": 44.48,
+            "p95_temp_celsius": 47.38,
+            "p99_temp_celsius": 49.88,
+            "p95_wind_speed_ms": 19.94,
+            "rain_probability_percent": 75.26
+        },
+        "176": {
+            "p5_temp_celsius": 35.91,
+            "p75_temp_celsius": 42.91,
+            "p85_temp_celsius": 44.51,
+            "p95_temp_celsius": 47.41,
+            "p99_temp_celsius": 49.91,
+            "p95_wind_speed_ms": 19.96,
+            "rain_probability_percent": 63.06
+        },
+        "177": {
+            "p5_temp_celsius": 35.93,
+            "p75_temp_celsius": 42.93,
+            "p85_temp_celsius": 44.53,
+            "p95_temp_celsius": 47.43,
+            "p99_temp_celsius": 49.93,
+            "p95_wind_speed_ms": 19.97,
+            "rain_probability_percent": 60.99
+        },
+        "178": {
+            "p5_temp_celsius": 35.95,
+            "p75_temp_celsius": 42.95,
+            "p85_temp_celsius": 44.55,
+            "p95_temp_celsius": 47.45,
+            "p99_temp_celsius": 49.95,
+            "p95_wind_speed_ms": 19.98,
+            "rain_probability_percent": 77.17
+        },
+        "179": {
+            "p5_temp_celsius": 35.97,
+            "p75_temp_celsius": 42.97,
+            "p85_temp_celsius": 44.57,
+            "p95_temp_celsius": 47.47,
+            "p99_temp_celsius": 49.97,
+            "p95_wind_speed_ms": 19.99,
+            "rain_probability_percent": 70.54
+        },
+        "180": {
+            "p5_temp_celsius": 35.98,
+            "p75_temp_celsius": 42.98,
+            "p85_temp_celsius": 44.58,
+            "p95_temp_celsius": 47.48,
+            "p99_temp_celsius": 49.98,
+            "p95_wind_speed_ms": 19.99,
+            "rain_probability_percent": 62.92
+        },
+        "181": {
+            "p5_temp_celsius": 35.99,
+            "p75_temp_celsius": 42.99,
+            "p85_temp_celsius": 44.59,
+            "p95_temp_celsius": 47.49,
+            "p99_temp_celsius": 49.99,
+            "p95_wind_speed_ms": 20.0,
+            "rain_probability_percent": 67.44
+        },
+        "182": {
+            "p5_temp_celsius": 36.0,
+            "p75_temp_celsius": 43.0,
+            "p85_temp_celsius": 44.6,
+            "p95_temp_celsius": 47.5,
+            "p99_temp_celsius": 50.0,
+            "p95_wind_speed_ms": 20.0,
+            "rain_probability_percent": 61.33
+        },
+        "183": {
+            "p5_temp_celsius": 36.0,
+            "p75_temp_celsius": 43.0,
+            "p85_temp_celsius": 44.6,
+            "p95_temp_celsius": 47.5,
+            "p99_temp_celsius": 50.0,
+            "p95_wind_speed_ms": 20.0,
+            "rain_probability_percent": 69.65
+        },
+        "184": {
+            "p5_temp_celsius": 36.0,
+            "p75_temp_celsius": 43.0,
+            "p85_temp_celsius": 44.6,
+            "p95_temp_celsius": 47.5,
+            "p99_temp_celsius": 50.0,
+            "p95_wind_speed_ms": 20.0,
+            "rain_probability_percent": 63.23
+        },
+        "185": {
+            "p5_temp_celsius": 35.99,
+            "p75_temp_celsius": 42.99,
+            "p85_temp_celsius": 44.59,
+            "p95_temp_celsius": 47.49,
+            "p99_temp_celsius": 49.99,
+            "p95_wind_speed_ms": 20.0,
+            "rain_probability_percent": 61.78
+        },
+        "186": {
+            "p5_temp_celsius": 35.98,
+            "p75_temp_celsius": 42.98,
+            "p85_temp_celsius": 44.58,
+            "p95_temp_celsius": 47.48,
+            "p99_temp_celsius": 49.98,
+            "p95_wind_speed_ms": 19.99,
+            "rain_probability_percent": 60.95
+        },
+        "187": {
+            "p5_temp_celsius": 35.97,
+            "p75_temp_celsius": 42.97,
+            "p85_temp_celsius": 44.57,
+            "p95_temp_celsius": 47.47,
+            "p99_temp_celsius": 49.97,
+            "p95_wind_speed_ms": 19.99,
+            "rain_probability_percent": 63.16
+        },
+        "188": {
+            "p5_temp_celsius": 35.95,
+            "p75_temp_celsius": 42.95,
+            "p85_temp_celsius": 44.55,
+            "p95_temp_celsius": 47.45,
+            "p99_temp_celsius": 49.95,
+            "p95_wind_speed_ms": 19.98,
+            "rain_probability_percent": 78.2
+        },
+        "189": {
+            "p5_temp_celsius": 35.93,
+            "p75_temp_celsius": 42.93,
+            "p85_temp_celsius": 44.53,
+            "p95_temp_celsius": 47.43,
+            "p99_temp_celsius": 49.93,
+            "p95_wind_speed_ms": 19.97,
+            "rain_probability_percent": 78.61
+        },
+        "190": {
+            "p5_temp_celsius": 35.91,
+            "p75_temp_celsius": 42.91,
+            "p85_temp_celsius": 44.51,
+            "p95_temp_celsius": 47.41,
+            "p99_temp_celsius": 49.91,
+            "p95_wind_speed_ms": 19.96,
+            "rain_probability_percent": 61.52
+        },
+        "191": {
+            "p5_temp_celsius": 35.88,
+            "p75_temp_celsius": 42.88,
+            "p85_temp_celsius": 44.48,
+            "p95_temp_celsius": 47.38,
+            "p99_temp_celsius": 49.88,
+            "p95_wind_speed_ms": 19.94,
+            "rain_probability_percent": 74.87
+        },
+        "192": {
+            "p5_temp_celsius": 35.85,
+            "p75_temp_celsius": 42.85,
+            "p85_temp_celsius": 44.45,
+            "p95_temp_celsius": 47.35,
+            "p99_temp_celsius": 49.85,
+            "p95_wind_speed_ms": 19.93,
+            "rain_probability_percent": 69.3
+        },
+        "193": {
+            "p5_temp_celsius": 35.81,
+            "p75_temp_celsius": 42.81,
+            "p85_temp_celsius": 44.41,
+            "p95_temp_celsius": 47.31,
+            "p99_temp_celsius": 49.81,
+            "p95_wind_speed_ms": 19.91,
+            "rain_probability_percent": 74.01
+        },
+        "194": {
+            "p5_temp_celsius": 35.77,
+            "p75_temp_celsius": 42.77,
+            "p85_temp_celsius": 44.37,
+            "p95_temp_celsius": 47.27,
+            "p99_temp_celsius": 49.77,
+            "p95_wind_speed_ms": 19.89,
+            "rain_probability_percent": 75.27
+        },
+        "195": {
+            "p5_temp_celsius": 35.73,
+            "p75_temp_celsius": 42.73,
+            "p85_temp_celsius": 44.33,
+            "p95_temp_celsius": 47.23,
+            "p99_temp_celsius": 49.73,
+            "p95_wind_speed_ms": 19.87,
+            "rain_probability_percent": 69.17
+        },
+        "196": {
+            "p5_temp_celsius": 35.68,
+            "p75_temp_celsius": 42.68,
+            "p85_temp_celsius": 44.28,
+            "p95_temp_celsius": 47.18,
+            "p99_temp_celsius": 49.68,
+            "p95_wind_speed_ms": 19.85,
+            "rain_probability_percent": 68.68
+        },
+        "197": {
+            "p5_temp_celsius": 35.63,
+            "p75_temp_celsius": 42.63,
+            "p85_temp_celsius": 44.23,
+            "p95_temp_celsius": 47.13,
+            "p99_temp_celsius": 49.63,
+            "p95_wind_speed_ms": 19.83,
+            "rain_probability_percent": 76.93
+        },
+        "198": {
+            "p5_temp_celsius": 35.57,
+            "p75_temp_celsius": 42.57,
+            "p85_temp_celsius": 44.17,
+            "p95_temp_celsius": 47.07,
+            "p99_temp_celsius": 49.57,
+            "p95_wind_speed_ms": 19.8,
+            "rain_probability_percent": 68.42
+        },
+        "199": {
+            "p5_temp_celsius": 35.51,
+            "p75_temp_celsius": 42.51,
+            "p85_temp_celsius": 44.11,
+            "p95_temp_celsius": 47.01,
+            "p99_temp_celsius": 49.51,
+            "p95_wind_speed_ms": 19.78,
+            "rain_probability_percent": 76.51
+        },
+        "200": {
+            "p5_temp_celsius": 35.45,
+            "p75_temp_celsius": 42.45,
+            "p85_temp_celsius": 44.05,
+            "p95_temp_celsius": 46.95,
+            "p99_temp_celsius": 49.45,
+            "p95_wind_speed_ms": 19.75,
+            "rain_probability_percent": 74.78
+        },
+        "201": {
+            "p5_temp_celsius": 35.38,
+            "p75_temp_celsius": 42.38,
+            "p85_temp_celsius": 43.98,
+            "p95_temp_celsius": 46.88,
+            "p99_temp_celsius": 49.38,
+            "p95_wind_speed_ms": 19.72,
+            "rain_probability_percent": 76.89
+        },
+        "202": {
+            "p5_temp_celsius": 35.31,
+            "p75_temp_celsius": 42.31,
+            "p85_temp_celsius": 43.91,
+            "p95_temp_celsius": 46.81,
+            "p99_temp_celsius": 49.31,
+            "p95_wind_speed_ms": 19.68,
+            "rain_probability_percent": 62.64
+        },
+        "203": {
+            "p5_temp_celsius": 35.24,
+            "p75_temp_celsius": 42.24,
+            "p85_temp_celsius": 43.84,
+            "p95_temp_celsius": 46.74,
+            "p99_temp_celsius": 49.24,
+            "p95_wind_speed_ms": 19.65,
+            "rain_probability_percent": 62.7
+        },
+        "204": {
+            "p5_temp_celsius": 35.16,
+            "p75_temp_celsius": 42.16,
+            "p85_temp_celsius": 43.76,
+            "p95_temp_celsius": 46.66,
+            "p99_temp_celsius": 49.16,
+            "p95_wind_speed_ms": 19.61,
+            "rain_probability_percent": 58.62
+        },
+        "205": {
+            "p5_temp_celsius": 35.08,
+            "p75_temp_celsius": 42.08,
+            "p85_temp_celsius": 43.68,
+            "p95_temp_celsius": 46.58,
+            "p99_temp_celsius": 49.08,
+            "p95_wind_speed_ms": 19.58,
+            "rain_probability_percent": 71.6
+        },
+        "206": {
+            "p5_temp_celsius": 35.0,
+            "p75_temp_celsius": 42.0,
+            "p85_temp_celsius": 43.6,
+            "p95_temp_celsius": 46.5,
+            "p99_temp_celsius": 49.0,
+            "p95_wind_speed_ms": 19.54,
+            "rain_probability_percent": 73.74
+        },
+        "207": {
+            "p5_temp_celsius": 34.91,
+            "p75_temp_celsius": 41.91,
+            "p85_temp_celsius": 43.51,
+            "p95_temp_celsius": 46.41,
+            "p99_temp_celsius": 48.91,
+            "p95_wind_speed_ms": 19.5,
+            "rain_probability_percent": 72.85
+        },
+        "208": {
+            "p5_temp_celsius": 34.82,
+            "p75_temp_celsius": 41.82,
+            "p85_temp_celsius": 43.42,
+            "p95_temp_celsius": 46.32,
+            "p99_temp_celsius": 48.82,
+            "p95_wind_speed_ms": 19.46,
+            "rain_probability_percent": 57.64
+        },
+        "209": {
+            "p5_temp_celsius": 34.73,
+            "p75_temp_celsius": 41.73,
+            "p85_temp_celsius": 43.33,
+            "p95_temp_celsius": 46.23,
+            "p99_temp_celsius": 48.73,
+            "p95_wind_speed_ms": 19.41,
+            "rain_probability_percent": 75.57
+        },
+        "210": {
+            "p5_temp_celsius": 34.63,
+            "p75_temp_celsius": 41.63,
+            "p85_temp_celsius": 43.23,
+            "p95_temp_celsius": 46.13,
+            "p99_temp_celsius": 48.63,
+            "p95_wind_speed_ms": 19.37,
+            "rain_probability_percent": 73.41
+        },
+        "211": {
+            "p5_temp_celsius": 34.53,
+            "p75_temp_celsius": 41.53,
+            "p85_temp_celsius": 43.13,
+            "p95_temp_celsius": 46.03,
+            "p99_temp_celsius": 48.53,
+            "p95_wind_speed_ms": 19.32,
+            "rain_probability_percent": 60.04
+        },
+        "212": {
+            "p5_temp_celsius": 34.42,
+            "p75_temp_celsius": 41.42,
+            "p85_temp_celsius": 43.02,
+            "p95_temp_celsius": 45.92,
+            "p99_temp_celsius": 48.42,
+            "p95_wind_speed_ms": 19.27,
+            "rain_probability_percent": 64.08
+        },
+        "213": {
+            "p5_temp_celsius": 34.31,
+            "p75_temp_celsius": 41.31,
+            "p85_temp_celsius": 42.91,
+            "p95_temp_celsius": 45.81,
+            "p99_temp_celsius": 48.31,
+            "p95_wind_speed_ms": 19.22,
+            "rain_probability_percent": 57.86
+        },
+        "214": {
+            "p5_temp_celsius": 34.2,
+            "p75_temp_celsius": 41.2,
+            "p85_temp_celsius": 42.8,
+            "p95_temp_celsius": 45.7,
+            "p99_temp_celsius": 48.2,
+            "p95_wind_speed_ms": 19.17,
+            "rain_probability_percent": 67.55
+        },
+        "215": {
+            "p5_temp_celsius": 34.09,
+            "p75_temp_celsius": 41.09,
+            "p85_temp_celsius": 42.69,
+            "p95_temp_celsius": 45.59,
+            "p99_temp_celsius": 48.09,
+            "p95_wind_speed_ms": 19.12,
+            "rain_probability_percent": 60.21
+        },
+        "216": {
+            "p5_temp_celsius": 33.97,
+            "p75_temp_celsius": 40.97,
+            "p85_temp_celsius": 42.57,
+            "p95_temp_celsius": 45.47,
+            "p99_temp_celsius": 47.97,
+            "p95_wind_speed_ms": 19.06,
+            "rain_probability_percent": 61.24
+        },
+        "217": {
+            "p5_temp_celsius": 33.85,
+            "p75_temp_celsius": 40.85,
+            "p85_temp_celsius": 42.45,
+            "p95_temp_celsius": 45.35,
+            "p99_temp_celsius": 47.85,
+            "p95_wind_speed_ms": 19.01,
+            "rain_probability_percent": 70.25
+        },
+        "218": {
+            "p5_temp_celsius": 33.72,
+            "p75_temp_celsius": 40.72,
+            "p85_temp_celsius": 42.32,
+            "p95_temp_celsius": 45.22,
+            "p99_temp_celsius": 47.72,
+            "p95_wind_speed_ms": 18.95,
+            "rain_probability_percent": 54.82
+        },
+        "219": {
+            "p5_temp_celsius": 33.6,
+            "p75_temp_celsius": 40.6,
+            "p85_temp_celsius": 42.2,
+            "p95_temp_celsius": 45.1,
+            "p99_temp_celsius": 47.6,
+            "p95_wind_speed_ms": 18.89,
+            "rain_probability_percent": 55.04
+        },
+        "220": {
+            "p5_temp_celsius": 33.46,
+            "p75_temp_celsius": 40.46,
+            "p85_temp_celsius": 42.06,
+            "p95_temp_celsius": 44.96,
+            "p99_temp_celsius": 47.46,
+            "p95_wind_speed_ms": 18.83,
+            "rain_probability_percent": 60.22
+        },
+        "221": {
+            "p5_temp_celsius": 33.33,
+            "p75_temp_celsius": 40.33,
+            "p85_temp_celsius": 41.93,
+            "p95_temp_celsius": 44.83,
+            "p99_temp_celsius": 47.33,
+            "p95_wind_speed_ms": 18.77,
+            "rain_probability_percent": 57.31
+        },
+        "222": {
+            "p5_temp_celsius": 33.19,
+            "p75_temp_celsius": 40.19,
+            "p85_temp_celsius": 41.79,
+            "p95_temp_celsius": 44.69,
+            "p99_temp_celsius": 47.19,
+            "p95_wind_speed_ms": 18.7,
+            "rain_probability_percent": 56.65
+        },
+        "223": {
+            "p5_temp_celsius": 33.05,
+            "p75_temp_celsius": 40.05,
+            "p85_temp_celsius": 41.65,
+            "p95_temp_celsius": 44.55,
+            "p99_temp_celsius": 47.05,
+            "p95_wind_speed_ms": 18.64,
+            "rain_probability_percent": 67.31
+        },
+        "224": {
+            "p5_temp_celsius": 32.91,
+            "p75_temp_celsius": 39.91,
+            "p85_temp_celsius": 41.51,
+            "p95_temp_celsius": 44.41,
+            "p99_temp_celsius": 46.91,
+            "p95_wind_speed_ms": 18.57,
+            "rain_probability_percent": 57.46
+        },
+        "225": {
+            "p5_temp_celsius": 32.76,
+            "p75_temp_celsius": 39.76,
+            "p85_temp_celsius": 41.36,
+            "p95_temp_celsius": 44.26,
+            "p99_temp_celsius": 46.76,
+            "p95_wind_speed_ms": 18.51,
+            "rain_probability_percent": 63.55
+        },
+        "226": {
+            "p5_temp_celsius": 32.62,
+            "p75_temp_celsius": 39.62,
+            "p85_temp_celsius": 41.22,
+            "p95_temp_celsius": 44.12,
+            "p99_temp_celsius": 46.62,
+            "p95_wind_speed_ms": 18.44,
+            "rain_probability_percent": 58.9
+        },
+        "227": {
+            "p5_temp_celsius": 32.46,
+            "p75_temp_celsius": 39.46,
+            "p85_temp_celsius": 41.06,
+            "p95_temp_celsius": 43.96,
+            "p99_temp_celsius": 46.46,
+            "p95_wind_speed_ms": 18.37,
+            "rain_probability_percent": 50.77
+        },
+        "228": {
+            "p5_temp_celsius": 32.31,
+            "p75_temp_celsius": 39.31,
+            "p85_temp_celsius": 40.91,
+            "p95_temp_celsius": 43.81,
+            "p99_temp_celsius": 46.31,
+            "p95_wind_speed_ms": 18.3,
+            "rain_probability_percent": 52.04
+        },
+        "229": {
+            "p5_temp_celsius": 32.15,
+            "p75_temp_celsius": 39.15,
+            "p85_temp_celsius": 40.75,
+            "p95_temp_celsius": 43.65,
+            "p99_temp_celsius": 46.15,
+            "p95_wind_speed_ms": 18.22,
+            "rain_probability_percent": 49.24
+        },
+        "230": {
+            "p5_temp_celsius": 31.99,
+            "p75_temp_celsius": 38.99,
+            "p85_temp_celsius": 40.59,
+            "p95_temp_celsius": 43.49,
+            "p99_temp_celsius": 45.99,
+            "p95_wind_speed_ms": 18.15,
+            "rain_probability_percent": 56.52
+        },
+        "231": {
+            "p5_temp_celsius": 31.83,
+            "p75_temp_celsius": 38.83,
+            "p85_temp_celsius": 40.43,
+            "p95_temp_celsius": 43.33,
+            "p99_temp_celsius": 45.83,
+            "p95_wind_speed_ms": 18.08,
+            "rain_probability_percent": 60.64
+        },
+        "232": {
+            "p5_temp_celsius": 31.67,
+            "p75_temp_celsius": 38.67,
+            "p85_temp_celsius": 40.27,
+            "p95_temp_celsius": 43.17,
+            "p99_temp_celsius": 45.67,
+            "p95_wind_speed_ms": 18.0,
+            "rain_probability_percent": 58.33
+        },
+        "233": {
+            "p5_temp_celsius": 31.5,
+            "p75_temp_celsius": 38.5,
+            "p85_temp_celsius": 40.1,
+            "p95_temp_celsius": 43.0,
+            "p99_temp_celsius": 45.5,
+            "p95_wind_speed_ms": 17.92,
+            "rain_probability_percent": 55.83
+        },
+        "234": {
+            "p5_temp_celsius": 31.33,
+            "p75_temp_celsius": 38.33,
+            "p85_temp_celsius": 39.93,
+            "p95_temp_celsius": 42.83,
+            "p99_temp_celsius": 45.33,
+            "p95_wind_speed_ms": 17.84,
+            "rain_probability_percent": 64.79
+        },
+        "235": {
+            "p5_temp_celsius": 31.16,
+            "p75_temp_celsius": 38.16,
+            "p85_temp_celsius": 39.76,
+            "p95_temp_celsius": 42.66,
+            "p99_temp_celsius": 45.16,
+            "p95_wind_speed_ms": 17.76,
+            "rain_probability_percent": 54.44
+        },
+        "236": {
+            "p5_temp_celsius": 30.98,
+            "p75_temp_celsius": 37.98,
+            "p85_temp_celsius": 39.58,
+            "p95_temp_celsius": 42.48,
+            "p99_temp_celsius": 44.98,
+            "p95_wind_speed_ms": 17.68,
+            "rain_probability_percent": 55.35
+        },
+        "237": {
+            "p5_temp_celsius": 30.8,
+            "p75_temp_celsius": 37.8,
+            "p85_temp_celsius": 39.4,
+            "p95_temp_celsius": 42.3,
+            "p99_temp_celsius": 44.8,
+            "p95_wind_speed_ms": 17.6,
+            "rain_probability_percent": 48.69
+        },
+        "238": {
+            "p5_temp_celsius": 30.62,
+            "p75_temp_celsius": 37.62,
+            "p85_temp_celsius": 39.22,
+            "p95_temp_celsius": 42.12,
+            "p99_temp_celsius": 44.62,
+            "p95_wind_speed_ms": 17.52,
+            "rain_probability_percent": 57.72
+        },
+        "239": {
+            "p5_temp_celsius": 30.44,
+            "p75_temp_celsius": 37.44,
+            "p85_temp_celsius": 39.04,
+            "p95_temp_celsius": 41.94,
+            "p99_temp_celsius": 44.44,
+            "p95_wind_speed_ms": 17.43,
+            "rain_probability_percent": 43.56
+        },
+        "240": {
+            "p5_temp_celsius": 30.26,
+            "p75_temp_celsius": 37.26,
+            "p85_temp_celsius": 38.86,
+            "p95_temp_celsius": 41.76,
+            "p99_temp_celsius": 44.26,
+            "p95_wind_speed_ms": 17.35,
+            "rain_probability_percent": 43.63
+        },
+        "241": {
+            "p5_temp_celsius": 30.07,
+            "p75_temp_celsius": 37.07,
+            "p85_temp_celsius": 38.67,
+            "p95_temp_celsius": 41.57,
+            "p99_temp_celsius": 44.07,
+            "p95_wind_speed_ms": 17.26,
+            "rain_probability_percent": 60.77
+        },
+        "242": {
+            "p5_temp_celsius": 29.88,
+            "p75_temp_celsius": 36.88,
+            "p85_temp_celsius": 38.48,
+            "p95_temp_celsius": 41.38,
+            "p99_temp_celsius": 43.88,
+            "p95_wind_speed_ms": 17.18,
+            "rain_probability_percent": 46.48
+        },
+        "243": {
+            "p5_temp_celsius": 29.69,
+            "p75_temp_celsius": 36.69,
+            "p85_temp_celsius": 38.29,
+            "p95_temp_celsius": 41.19,
+            "p99_temp_celsius": 43.69,
+            "p95_wind_speed_ms": 17.09,
+            "rain_probability_percent": 41.58
+        },
+        "244": {
+            "p5_temp_celsius": 29.5,
+            "p75_temp_celsius": 36.5,
+            "p85_temp_celsius": 38.1,
+            "p95_temp_celsius": 41.0,
+            "p99_temp_celsius": 43.5,
+            "p95_wind_speed_ms": 17.0,
+            "rain_probability_percent": 57.86
+        },
+        "245": {
+            "p5_temp_celsius": 29.31,
+            "p75_temp_celsius": 36.31,
+            "p85_temp_celsius": 37.91,
+            "p95_temp_celsius": 40.81,
+            "p99_temp_celsius": 43.31,
+            "p95_wind_speed_ms": 16.91,
+            "rain_probability_percent": 51.75
+        },
+        "246": {
+            "p5_temp_celsius": 29.11,
+            "p75_temp_celsius": 36.11,
+            "p85_temp_celsius": 37.71,
+            "p95_temp_celsius": 40.61,
+            "p99_temp_celsius": 43.11,
+            "p95_wind_speed_ms": 16.82,
+            "rain_probability_percent": 50.54
+        },
+        "247": {
+            "p5_temp_celsius": 28.91,
+            "p75_temp_celsius": 35.91,
+            "p85_temp_celsius": 37.51,
+            "p95_temp_celsius": 40.41,
+            "p99_temp_celsius": 42.91,
+            "p95_wind_speed_ms": 16.73,
+            "rain_probability_percent": 56.25
+        },
+        "248": {
+            "p5_temp_celsius": 28.71,
+            "p75_temp_celsius": 35.71,
+            "p85_temp_celsius": 37.31,
+            "p95_temp_celsius": 40.21,
+            "p99_temp_celsius": 42.71,
+            "p95_wind_speed_ms": 16.64,
+            "rain_probability_percent": 43.45
+        },
+        "249": {
+            "p5_temp_celsius": 28.51,
+            "p75_temp_celsius": 35.51,
+            "p85_temp_celsius": 37.11,
+            "p95_temp_celsius": 40.01,
+            "p99_temp_celsius": 42.51,
+            "p95_wind_speed_ms": 16.54,
+            "rain_probability_percent": 56.56
+        },
+        "250": {
+            "p5_temp_celsius": 28.31,
+            "p75_temp_celsius": 35.31,
+            "p85_temp_celsius": 36.91,
+            "p95_temp_celsius": 39.81,
+            "p99_temp_celsius": 42.31,
+            "p95_wind_speed_ms": 16.45,
+            "rain_probability_percent": 46.77
+        },
+        "251": {
+            "p5_temp_celsius": 28.1,
+            "p75_temp_celsius": 35.1,
+            "p85_temp_celsius": 36.7,
+            "p95_temp_celsius": 39.6,
+            "p99_temp_celsius": 42.1,
+            "p95_wind_speed_ms": 16.36,
+            "rain_probability_percent": 51.21
+        },
+        "252": {
+            "p5_temp_celsius": 27.9,
+            "p75_temp_celsius": 34.9,
+            "p85_temp_celsius": 36.5,
+            "p95_temp_celsius": 39.4,
+            "p99_temp_celsius": 41.9,
+            "p95_wind_speed_ms": 16.26,
+            "rain_probability_percent": 36.88
+        },
+        "253": {
+            "p5_temp_celsius": 27.69,
+            "p75_temp_celsius": 34.69,
+            "p85_temp_celsius": 36.29,
+            "p95_temp_celsius": 39.19,
+            "p99_temp_celsius": 41.69,
+            "p95_wind_speed_ms": 16.16,
+            "rain_probability_percent": 37.37
+        },
+        "254": {
+            "p5_temp_celsius": 27.48,
+            "p75_temp_celsius": 34.48,
+            "p85_temp_celsius": 36.08,
+            "p95_temp_celsius": 38.98,
+            "p99_temp_celsius": 41.48,
+            "p95_wind_speed_ms": 16.07,
+            "rain_probability_percent": 45.77
+        },
+        "255": {
+            "p5_temp_celsius": 27.27,
+            "p75_temp_celsius": 34.27,
+            "p85_temp_celsius": 35.87,
+            "p95_temp_celsius": 38.77,
+            "p99_temp_celsius": 41.27,
+            "p95_wind_speed_ms": 15.97,
+            "rain_probability_percent": 33.74
+        },
+        "256": {
+            "p5_temp_celsius": 27.06,
+            "p75_temp_celsius": 34.06,
+            "p85_temp_celsius": 35.66,
+            "p95_temp_celsius": 38.56,
+            "p99_temp_celsius": 41.06,
+            "p95_wind_speed_ms": 15.87,
+            "rain_probability_percent": 50.37
+        },
+        "257": {
+            "p5_temp_celsius": 26.85,
+            "p75_temp_celsius": 33.85,
+            "p85_temp_celsius": 35.45,
+            "p95_temp_celsius": 38.35,
+            "p99_temp_celsius": 40.85,
+            "p95_wind_speed_ms": 15.78,
+            "rain_probability_percent": 33.09
+        },
+        "258": {
+            "p5_temp_celsius": 26.63,
+            "p75_temp_celsius": 33.63,
+            "p85_temp_celsius": 35.23,
+            "p95_temp_celsius": 38.13,
+            "p99_temp_celsius": 40.63,
+            "p95_wind_speed_ms": 15.68,
+            "rain_probability_percent": 47.67
+        },
+        "259": {
+            "p5_temp_celsius": 26.42,
+            "p75_temp_celsius": 33.42,
+            "p85_temp_celsius": 35.02,
+            "p95_temp_celsius": 37.92,
+            "p99_temp_celsius": 40.42,
+            "p95_wind_speed_ms": 15.58,
+            "rain_probability_percent": 44.02
+        },
+        "260": {
+            "p5_temp_celsius": 26.2,
+            "p75_temp_celsius": 33.2,
+            "p85_temp_celsius": 34.8,
+            "p95_temp_celsius": 37.7,
+            "p99_temp_celsius": 40.2,
+            "p95_wind_speed_ms": 15.48,
+            "rain_probability_percent": 34.68
+        },
+        "261": {
+            "p5_temp_celsius": 25.99,
+            "p75_temp_celsius": 32.99,
+            "p85_temp_celsius": 34.59,
+            "p95_temp_celsius": 37.49,
+            "p99_temp_celsius": 39.99,
+            "p95_wind_speed_ms": 15.38,
+            "rain_probability_percent": 43.18
+        },
+        "262": {
+            "p5_temp_celsius": 25.77,
+            "p75_temp_celsius": 32.77,
+            "p85_temp_celsius": 34.37,
+            "p95_temp_celsius": 37.27,
+            "p99_temp_celsius": 39.77,
+            "p95_wind_speed_ms": 15.28,
+            "rain_probability_percent": 31.03
+        },
+        "263": {
+            "p5_temp_celsius": 25.55,
+            "p75_temp_celsius": 32.55,
+            "p85_temp_celsius": 34.15,
+            "p95_temp_celsius": 37.05,
+            "p99_temp_celsius": 39.55,
+            "p95_wind_speed_ms": 15.18,
+            "rain_probability_percent": 31.26
+        },
+        "264": {
+            "p5_temp_celsius": 25.33,
+            "p75_temp_celsius": 32.33,
+            "p85_temp_celsius": 33.93,
+            "p95_temp_celsius": 36.83,
+            "p99_temp_celsius": 39.33,
+            "p95_wind_speed_ms": 15.08,
+            "rain_probability_percent": 31.16
+        },
+        "265": {
+            "p5_temp_celsius": 25.11,
+            "p75_temp_celsius": 32.11,
+            "p85_temp_celsius": 33.71,
+            "p95_temp_celsius": 36.61,
+            "p99_temp_celsius": 39.11,
+            "p95_wind_speed_ms": 14.97,
+            "rain_probability_percent": 30.32
+        },
+        "266": {
+            "p5_temp_celsius": 24.89,
+            "p75_temp_celsius": 31.89,
+            "p85_temp_celsius": 33.49,
+            "p95_temp_celsius": 36.39,
+            "p99_temp_celsius": 38.89,
+            "p95_wind_speed_ms": 14.87,
+            "rain_probability_percent": 43.85
+        },
+        "267": {
+            "p5_temp_celsius": 24.67,
+            "p75_temp_celsius": 31.67,
+            "p85_temp_celsius": 33.27,
+            "p95_temp_celsius": 36.17,
+            "p99_temp_celsius": 38.67,
+            "p95_wind_speed_ms": 14.77,
+            "rain_probability_percent": 28.69
+        },
+        "268": {
+            "p5_temp_celsius": 24.45,
+            "p75_temp_celsius": 31.45,
+            "p85_temp_celsius": 33.05,
+            "p95_temp_celsius": 35.95,
+            "p99_temp_celsius": 38.45,
+            "p95_wind_speed_ms": 14.67,
+            "rain_probability_percent": 25.55
+        },
+        "269": {
+            "p5_temp_celsius": 24.23,
+            "p75_temp_celsius": 31.23,
+            "p85_temp_celsius": 32.83,
+            "p95_temp_celsius": 35.73,
+            "p99_temp_celsius": 38.23,
+            "p95_wind_speed_ms": 14.57,
+            "rain_probability_percent": 30.67
+        },
+        "270": {
+            "p5_temp_celsius": 24.0,
+            "p75_temp_celsius": 31.0,
+            "p85_temp_celsius": 32.6,
+            "p95_temp_celsius": 35.5,
+            "p99_temp_celsius": 38.0,
+            "p95_wind_speed_ms": 14.46,
+            "rain_probability_percent": 32.57
+        },
+        "271": {
+            "p5_temp_celsius": 23.78,
+            "p75_temp_celsius": 30.78,
+            "p85_temp_celsius": 32.38,
+            "p95_temp_celsius": 35.28,
+            "p99_temp_celsius": 37.78,
+            "p95_wind_speed_ms": 14.36,
+            "rain_probability_percent": 37.36
+        },
+        "272": {
+            "p5_temp_celsius": 23.56,
+            "p75_temp_celsius": 30.56,
+            "p85_temp_celsius": 32.16,
+            "p95_temp_celsius": 35.06,
+            "p99_temp_celsius": 37.56,
+            "p95_wind_speed_ms": 14.26,
+            "rain_probability_percent": 38.76
+        },
+        "273": {
+            "p5_temp_celsius": 23.33,
+            "p75_temp_celsius": 30.33,
+            "p85_temp_celsius": 31.93,
+            "p95_temp_celsius": 34.83,
+            "p99_temp_celsius": 37.33,
+            "p95_wind_speed_ms": 14.15,
+            "rain_probability_percent": 34.86
+        },
+        "274": {
+            "p5_temp_celsius": 23.11,
+            "p75_temp_celsius": 30.11,
+            "p85_temp_celsius": 31.71,
+            "p95_temp_celsius": 34.61,
+            "p99_temp_celsius": 37.11,
+            "p95_wind_speed_ms": 14.05,
+            "rain_probability_percent": 24.34
+        },
+        "275": {
+            "p5_temp_celsius": 22.89,
+            "p75_temp_celsius": 29.89,
+            "p85_temp_celsius": 31.49,
+            "p95_temp_celsius": 34.39,
+            "p99_temp_celsius": 36.89,
+            "p95_wind_speed_ms": 13.95,
+            "rain_probability_percent": 24.95
+        },
+        "276": {
+            "p5_temp_celsius": 22.67,
+            "p75_temp_celsius": 29.67,
+            "p85_temp_celsius": 31.27,
+            "p95_temp_celsius": 34.17,
+            "p99_temp_celsius": 36.67,
+            "p95_wind_speed_ms": 13.85,
+            "rain_probability_percent": 25.13
+        },
+        "277": {
+            "p5_temp_celsius": 22.44,
+            "p75_temp_celsius": 29.44,
+            "p85_temp_celsius": 31.04,
+            "p95_temp_celsius": 33.94,
+            "p99_temp_celsius": 36.44,
+            "p95_wind_speed_ms": 13.74,
+            "rain_probability_percent": 20.02
+        },
+        "278": {
+            "p5_temp_celsius": 22.22,
+            "p75_temp_celsius": 29.22,
+            "p85_temp_celsius": 30.82,
+            "p95_temp_celsius": 33.72,
+            "p99_temp_celsius": 36.22,
+            "p95_wind_speed_ms": 13.64,
+            "rain_probability_percent": 33.35
+        },
+        "279": {
+            "p5_temp_celsius": 22.0,
+            "p75_temp_celsius": 29.0,
+            "p85_temp_celsius": 30.6,
+            "p95_temp_celsius": 33.5,
+            "p99_temp_celsius": 36.0,
+            "p95_wind_speed_ms": 13.54,
+            "rain_probability_percent": 29.37
+        },
+        "280": {
+            "p5_temp_celsius": 21.77,
+            "p75_temp_celsius": 28.77,
+            "p85_temp_celsius": 30.37,
+            "p95_temp_celsius": 33.27,
+            "p99_temp_celsius": 35.77,
+            "p95_wind_speed_ms": 13.43,
+            "rain_probability_percent": 29.31
+        },
+        "281": {
+            "p5_temp_celsius": 21.55,
+            "p75_temp_celsius": 28.55,
+            "p85_temp_celsius": 30.15,
+            "p95_temp_celsius": 33.05,
+            "p99_temp_celsius": 35.55,
+            "p95_wind_speed_ms": 13.33,
+            "rain_probability_percent": 35.52
+        },
+        "282": {
+            "p5_temp_celsius": 21.33,
+            "p75_temp_celsius": 28.33,
+            "p85_temp_celsius": 29.93,
+            "p95_temp_celsius": 32.83,
+            "p99_temp_celsius": 35.33,
+            "p95_wind_speed_ms": 13.23,
+            "rain_probability_percent": 26.25
+        },
+        "283": {
+            "p5_temp_celsius": 21.11,
+            "p75_temp_celsius": 28.11,
+            "p85_temp_celsius": 29.71,
+            "p95_temp_celsius": 32.61,
+            "p99_temp_celsius": 35.11,
+            "p95_wind_speed_ms": 13.13,
+            "rain_probability_percent": 26.0
+        },
+        "284": {
+            "p5_temp_celsius": 20.89,
+            "p75_temp_celsius": 27.89,
+            "p85_temp_celsius": 29.49,
+            "p95_temp_celsius": 32.39,
+            "p99_temp_celsius": 34.89,
+            "p95_wind_speed_ms": 13.03,
+            "rain_probability_percent": 18.07
+        },
+        "285": {
+            "p5_temp_celsius": 20.67,
+            "p75_temp_celsius": 27.67,
+            "p85_temp_celsius": 29.27,
+            "p95_temp_celsius": 32.17,
+            "p99_temp_celsius": 34.67,
+            "p95_wind_speed_ms": 12.92,
+            "rain_probability_percent": 16.53
+        },
+        "286": {
+            "p5_temp_celsius": 20.45,
+            "p75_temp_celsius": 27.45,
+            "p85_temp_celsius": 29.05,
+            "p95_temp_celsius": 31.95,
+            "p99_temp_celsius": 34.45,
+            "p95_wind_speed_ms": 12.82,
+            "rain_probability_percent": 26.45
+        },
+        "287": {
+            "p5_temp_celsius": 20.23,
+            "p75_temp_celsius": 27.23,
+            "p85_temp_celsius": 28.83,
+            "p95_temp_celsius": 31.73,
+            "p99_temp_celsius": 34.23,
+            "p95_wind_speed_ms": 12.72,
+            "rain_probability_percent": 15.93
+        },
+        "288": {
+            "p5_temp_celsius": 20.01,
+            "p75_temp_celsius": 27.01,
+            "p85_temp_celsius": 28.61,
+            "p95_temp_celsius": 31.51,
+            "p99_temp_celsius": 34.01,
+            "p95_wind_speed_ms": 12.62,
+            "rain_probability_percent": 21.57
+        },
+        "289": {
+            "p5_temp_celsius": 19.8,
+            "p75_temp_celsius": 26.8,
+            "p85_temp_celsius": 28.4,
+            "p95_temp_celsius": 31.3,
+            "p99_temp_celsius": 33.8,
+            "p95_wind_speed_ms": 12.52,
+            "rain_probability_percent": 16.75
+        },
+        "290": {
+            "p5_temp_celsius": 19.58,
+            "p75_temp_celsius": 26.58,
+            "p85_temp_celsius": 28.18,
+            "p95_temp_celsius": 31.08,
+            "p99_temp_celsius": 33.58,
+            "p95_wind_speed_ms": 12.42,
+            "rain_probability_percent": 13.94
+        },
+        "291": {
+            "p5_temp_celsius": 19.37,
+            "p75_temp_celsius": 26.37,
+            "p85_temp_celsius": 27.97,
+            "p95_temp_celsius": 30.87,
+            "p99_temp_celsius": 33.37,
+            "p95_wind_speed_ms": 12.32,
+            "rain_probability_percent": 9.5
+        },
+        "292": {
+            "p5_temp_celsius": 19.15,
+            "p75_temp_celsius": 26.15,
+            "p85_temp_celsius": 27.75,
+            "p95_temp_celsius": 30.65,
+            "p99_temp_celsius": 33.15,
+            "p95_wind_speed_ms": 12.22,
+            "rain_probability_percent": 23.67
+        },
+        "293": {
+            "p5_temp_celsius": 18.94,
+            "p75_temp_celsius": 25.94,
+            "p85_temp_celsius": 27.54,
+            "p95_temp_celsius": 30.44,
+            "p99_temp_celsius": 32.94,
+            "p95_wind_speed_ms": 12.13,
+            "rain_probability_percent": 15.99
+        },
+        "294": {
+            "p5_temp_celsius": 18.73,
+            "p75_temp_celsius": 25.73,
+            "p85_temp_celsius": 27.33,
+            "p95_temp_celsius": 30.23,
+            "p99_temp_celsius": 32.73,
+            "p95_wind_speed_ms": 12.03,
+            "rain_probability_percent": 11.6
+        },
+        "295": {
+            "p5_temp_celsius": 18.52,
+            "p75_temp_celsius": 25.52,
+            "p85_temp_celsius": 27.12,
+            "p95_temp_celsius": 30.02,
+            "p99_temp_celsius": 32.52,
+            "p95_wind_speed_ms": 11.93,
+            "rain_probability_percent": 25.48
+        },
+        "296": {
+            "p5_temp_celsius": 18.31,
+            "p75_temp_celsius": 25.31,
+            "p85_temp_celsius": 26.91,
+            "p95_temp_celsius": 29.81,
+            "p99_temp_celsius": 32.31,
+            "p95_wind_speed_ms": 11.84,
+            "rain_probability_percent": 18.04
+        },
+        "297": {
+            "p5_temp_celsius": 18.1,
+            "p75_temp_celsius": 25.1,
+            "p85_temp_celsius": 26.7,
+            "p95_temp_celsius": 29.6,
+            "p99_temp_celsius": 32.1,
+            "p95_wind_speed_ms": 11.74,
+            "rain_probability_percent": 24.81
+        },
+        "298": {
+            "p5_temp_celsius": 17.9,
+            "p75_temp_celsius": 24.9,
+            "p85_temp_celsius": 26.5,
+            "p95_temp_celsius": 29.4,
+            "p99_temp_celsius": 31.9,
+            "p95_wind_speed_ms": 11.64,
+            "rain_probability_percent": 15.79
+        },
+        "299": {
+            "p5_temp_celsius": 17.69,
+            "p75_temp_celsius": 24.69,
+            "p85_temp_celsius": 26.29,
+            "p95_temp_celsius": 29.19,
+            "p99_temp_celsius": 31.69,
+            "p95_wind_speed_ms": 11.55,
+            "rain_probability_percent": 3.9
+        },
+        "300": {
+            "p5_temp_celsius": 17.49,
+            "p75_temp_celsius": 24.49,
+            "p85_temp_celsius": 26.09,
+            "p95_temp_celsius": 28.99,
+            "p99_temp_celsius": 31.49,
+            "p95_wind_speed_ms": 11.46,
+            "rain_probability_percent": 22.83
+        },
+        "301": {
+            "p5_temp_celsius": 17.29,
+            "p75_temp_celsius": 24.29,
+            "p85_temp_celsius": 25.89,
+            "p95_temp_celsius": 28.79,
+            "p99_temp_celsius": 31.29,
+            "p95_wind_speed_ms": 11.36,
+            "rain_probability_percent": 9.78
+        },
+        "302": {
+            "p5_temp_celsius": 17.09,
+            "p75_temp_celsius": 24.09,
+            "p85_temp_celsius": 25.69,
+            "p95_temp_celsius": 28.59,
+            "p99_temp_celsius": 31.09,
+            "p95_wind_speed_ms": 11.27,
+            "rain_probability_percent": 2.78
+        },
+        "303": {
+            "p5_temp_celsius": 16.89,
+            "p75_temp_celsius": 23.89,
+            "p85_temp_celsius": 25.49,
+            "p95_temp_celsius": 28.39,
+            "p99_temp_celsius": 30.89,
+            "p95_wind_speed_ms": 11.18,
+            "rain_probability_percent": 3.71
+        },
+        "304": {
+            "p5_temp_celsius": 16.69,
+            "p75_temp_celsius": 23.69,
+            "p85_temp_celsius": 25.29,
+            "p95_temp_celsius": 28.19,
+            "p99_temp_celsius": 30.69,
+            "p95_wind_speed_ms": 11.09,
+            "rain_probability_percent": 5.41
+        },
+        "305": {
+            "p5_temp_celsius": 16.5,
+            "p75_temp_celsius": 23.5,
+            "p85_temp_celsius": 25.1,
+            "p95_temp_celsius": 28.0,
+            "p99_temp_celsius": 30.5,
+            "p95_wind_speed_ms": 11.0,
+            "rain_probability_percent": 11.59
+        },
+        "306": {
+            "p5_temp_celsius": 16.31,
+            "p75_temp_celsius": 23.31,
+            "p85_temp_celsius": 24.91,
+            "p95_temp_celsius": 27.81,
+            "p99_temp_celsius": 30.31,
+            "p95_wind_speed_ms": 10.91,
+            "rain_probability_percent": 11.49
+        },
+        "307": {
+            "p5_temp_celsius": 16.12,
+            "p75_temp_celsius": 23.12,
+            "p85_temp_celsius": 24.72,
+            "p95_temp_celsius": 27.62,
+            "p99_temp_celsius": 30.12,
+            "p95_wind_speed_ms": 10.82,
+            "rain_probability_percent": 10.54
+        },
+        "308": {
+            "p5_temp_celsius": 15.93,
+            "p75_temp_celsius": 22.93,
+            "p85_temp_celsius": 24.53,
+            "p95_temp_celsius": 27.43,
+            "p99_temp_celsius": 29.93,
+            "p95_wind_speed_ms": 10.74,
+            "rain_probability_percent": 2.03
+        },
+        "309": {
+            "p5_temp_celsius": 15.74,
+            "p75_temp_celsius": 22.74,
+            "p85_temp_celsius": 24.34,
+            "p95_temp_celsius": 27.24,
+            "p99_temp_celsius": 29.74,
+            "p95_wind_speed_ms": 10.65,
+            "rain_probability_percent": 2.95
+        },
+        "310": {
+            "p5_temp_celsius": 15.56,
+            "p75_temp_celsius": 22.56,
+            "p85_temp_celsius": 24.16,
+            "p95_temp_celsius": 27.06,
+            "p99_temp_celsius": 29.56,
+            "p95_wind_speed_ms": 10.57,
+            "rain_probability_percent": 0
+        },
+        "311": {
+            "p5_temp_celsius": 15.38,
+            "p75_temp_celsius": 22.38,
+            "p85_temp_celsius": 23.98,
+            "p95_temp_celsius": 26.88,
+            "p99_temp_celsius": 29.38,
+            "p95_wind_speed_ms": 10.48,
+            "rain_probability_percent": 0
+        },
+        "312": {
+            "p5_temp_celsius": 15.2,
+            "p75_temp_celsius": 22.2,
+            "p85_temp_celsius": 23.8,
+            "p95_temp_celsius": 26.7,
+            "p99_temp_celsius": 29.2,
+            "p95_wind_speed_ms": 10.4,
+            "rain_probability_percent": 4.9
+        },
+        "313": {
+            "p5_temp_celsius": 15.02,
+            "p75_temp_celsius": 22.02,
+            "p85_temp_celsius": 23.62,
+            "p95_temp_celsius": 26.52,
+            "p99_temp_celsius": 29.02,
+            "p95_wind_speed_ms": 10.32,
+            "rain_probability_percent": 7.61
+        },
+        "314": {
+            "p5_temp_celsius": 14.84,
+            "p75_temp_celsius": 21.84,
+            "p85_temp_celsius": 23.44,
+            "p95_temp_celsius": 26.34,
+            "p99_temp_celsius": 28.84,
+            "p95_wind_speed_ms": 10.24,
+            "rain_probability_percent": 0
+        },
+        "315": {
+            "p5_temp_celsius": 14.67,
+            "p75_temp_celsius": 21.67,
+            "p85_temp_celsius": 23.27,
+            "p95_temp_celsius": 26.17,
+            "p99_temp_celsius": 28.67,
+            "p95_wind_speed_ms": 10.16,
+            "rain_probability_percent": 0
+        },
+        "316": {
+            "p5_temp_celsius": 14.5,
+            "p75_temp_celsius": 21.5,
+            "p85_temp_celsius": 23.1,
+            "p95_temp_celsius": 26.0,
+            "p99_temp_celsius": 28.5,
+            "p95_wind_speed_ms": 10.08,
+            "rain_probability_percent": 0
+        },
+        "317": {
+            "p5_temp_celsius": 14.33,
+            "p75_temp_celsius": 21.33,
+            "p85_temp_celsius": 22.93,
+            "p95_temp_celsius": 25.83,
+            "p99_temp_celsius": 28.33,
+            "p95_wind_speed_ms": 10.0,
+            "rain_probability_percent": 0
+        },
+        "318": {
+            "p5_temp_celsius": 14.17,
+            "p75_temp_celsius": 21.17,
+            "p85_temp_celsius": 22.77,
+            "p95_temp_celsius": 25.67,
+            "p99_temp_celsius": 28.17,
+            "p95_wind_speed_ms": 9.92,
+            "rain_probability_percent": 1.71
+        },
+        "319": {
+            "p5_temp_celsius": 14.01,
+            "p75_temp_celsius": 21.01,
+            "p85_temp_celsius": 22.61,
+            "p95_temp_celsius": 25.51,
+            "p99_temp_celsius": 28.01,
+            "p95_wind_speed_ms": 9.85,
+            "rain_probability_percent": 0
+        },
+        "320": {
+            "p5_temp_celsius": 13.85,
+            "p75_temp_celsius": 20.85,
+            "p85_temp_celsius": 22.45,
+            "p95_temp_celsius": 25.35,
+            "p99_temp_celsius": 27.85,
+            "p95_wind_speed_ms": 9.78,
+            "rain_probability_percent": 4.06
+        },
+        "321": {
+            "p5_temp_celsius": 13.69,
+            "p75_temp_celsius": 20.69,
+            "p85_temp_celsius": 22.29,
+            "p95_temp_celsius": 25.19,
+            "p99_temp_celsius": 27.69,
+            "p95_wind_speed_ms": 9.7,
+            "rain_probability_percent": 0
+        },
+        "322": {
+            "p5_temp_celsius": 13.54,
+            "p75_temp_celsius": 20.54,
+            "p85_temp_celsius": 22.14,
+            "p95_temp_celsius": 25.04,
+            "p99_temp_celsius": 27.54,
+            "p95_wind_speed_ms": 9.63,
+            "rain_probability_percent": 0
+        },
+        "323": {
+            "p5_temp_celsius": 13.38,
+            "p75_temp_celsius": 20.38,
+            "p85_temp_celsius": 21.98,
+            "p95_temp_celsius": 24.88,
+            "p99_temp_celsius": 27.38,
+            "p95_wind_speed_ms": 9.56,
+            "rain_probability_percent": 3.28
+        },
+        "324": {
+            "p5_temp_celsius": 13.24,
+            "p75_temp_celsius": 20.24,
+            "p85_temp_celsius": 21.84,
+            "p95_temp_celsius": 24.74,
+            "p99_temp_celsius": 27.24,
+            "p95_wind_speed_ms": 9.49,
+            "rain_probability_percent": 2.9
+        },
+        "325": {
+            "p5_temp_celsius": 13.09,
+            "p75_temp_celsius": 20.09,
+            "p85_temp_celsius": 21.69,
+            "p95_temp_celsius": 24.59,
+            "p99_temp_celsius": 27.09,
+            "p95_wind_speed_ms": 9.43,
+            "rain_probability_percent": 0
+        },
+        "326": {
+            "p5_temp_celsius": 12.95,
+            "p75_temp_celsius": 19.95,
+            "p85_temp_celsius": 21.55,
+            "p95_temp_celsius": 24.45,
+            "p99_temp_celsius": 26.95,
+            "p95_wind_speed_ms": 9.36,
+            "rain_probability_percent": 0
+        },
+        "327": {
+            "p5_temp_celsius": 12.81,
+            "p75_temp_celsius": 19.81,
+            "p85_temp_celsius": 21.41,
+            "p95_temp_celsius": 24.31,
+            "p99_temp_celsius": 26.81,
+            "p95_wind_speed_ms": 9.3,
+            "rain_probability_percent": 0
+        },
+        "328": {
+            "p5_temp_celsius": 12.67,
+            "p75_temp_celsius": 19.67,
+            "p85_temp_celsius": 21.27,
+            "p95_temp_celsius": 24.17,
+            "p99_temp_celsius": 26.67,
+            "p95_wind_speed_ms": 9.23,
+            "rain_probability_percent": 0
+        },
+        "329": {
+            "p5_temp_celsius": 12.54,
+            "p75_temp_celsius": 19.54,
+            "p85_temp_celsius": 21.14,
+            "p95_temp_celsius": 24.04,
+            "p99_temp_celsius": 26.54,
+            "p95_wind_speed_ms": 9.17,
+            "rain_probability_percent": 1.69
+        },
+        "330": {
+            "p5_temp_celsius": 12.4,
+            "p75_temp_celsius": 19.4,
+            "p85_temp_celsius": 21.0,
+            "p95_temp_celsius": 23.9,
+            "p99_temp_celsius": 26.4,
+            "p95_wind_speed_ms": 9.11,
+            "rain_probability_percent": 1.94
+        },
+        "331": {
+            "p5_temp_celsius": 12.28,
+            "p75_temp_celsius": 19.28,
+            "p85_temp_celsius": 20.88,
+            "p95_temp_celsius": 23.78,
+            "p99_temp_celsius": 26.28,
+            "p95_wind_speed_ms": 9.05,
+            "rain_probability_percent": 0
+        },
+        "332": {
+            "p5_temp_celsius": 12.15,
+            "p75_temp_celsius": 19.15,
+            "p85_temp_celsius": 20.75,
+            "p95_temp_celsius": 23.65,
+            "p99_temp_celsius": 26.15,
+            "p95_wind_speed_ms": 8.99,
+            "rain_probability_percent": 0
+        },
+        "333": {
+            "p5_temp_celsius": 12.03,
+            "p75_temp_celsius": 19.03,
+            "p85_temp_celsius": 20.63,
+            "p95_temp_celsius": 23.53,
+            "p99_temp_celsius": 26.03,
+            "p95_wind_speed_ms": 8.94,
+            "rain_probability_percent": 0
+        },
+        "334": {
+            "p5_temp_celsius": 11.91,
+            "p75_temp_celsius": 18.91,
+            "p85_temp_celsius": 20.51,
+            "p95_temp_celsius": 23.41,
+            "p99_temp_celsius": 25.91,
+            "p95_wind_speed_ms": 8.88,
+            "rain_probability_percent": 2.14
+        },
+        "335": {
+            "p5_temp_celsius": 11.8,
+            "p75_temp_celsius": 18.8,
+            "p85_temp_celsius": 20.4,
+            "p95_temp_celsius": 23.3,
+            "p99_temp_celsius": 25.8,
+            "p95_wind_speed_ms": 8.83,
+            "rain_probability_percent": 3.43
+        },
+        "336": {
+            "p5_temp_celsius": 11.69,
+            "p75_temp_celsius": 18.69,
+            "p85_temp_celsius": 20.29,
+            "p95_temp_celsius": 23.19,
+            "p99_temp_celsius": 25.69,
+            "p95_wind_speed_ms": 8.78,
+            "rain_probability_percent": 0
+        },
+        "337": {
+            "p5_temp_celsius": 11.58,
+            "p75_temp_celsius": 18.58,
+            "p85_temp_celsius": 20.18,
+            "p95_temp_celsius": 23.08,
+            "p99_temp_celsius": 25.58,
+            "p95_wind_speed_ms": 8.73,
+            "rain_probability_percent": 2.5
+        },
+        "338": {
+            "p5_temp_celsius": 11.47,
+            "p75_temp_celsius": 18.47,
+            "p85_temp_celsius": 20.07,
+            "p95_temp_celsius": 22.97,
+            "p99_temp_celsius": 25.47,
+            "p95_wind_speed_ms": 8.68,
+            "rain_probability_percent": 0
+        },
+        "339": {
+            "p5_temp_celsius": 11.37,
+            "p75_temp_celsius": 18.37,
+            "p85_temp_celsius": 19.97,
+            "p95_temp_celsius": 22.87,
+            "p99_temp_celsius": 25.37,
+            "p95_wind_speed_ms": 8.63,
+            "rain_probability_percent": 3.15
+        },
+        "340": {
+            "p5_temp_celsius": 11.27,
+            "p75_temp_celsius": 18.27,
+            "p85_temp_celsius": 19.87,
+            "p95_temp_celsius": 22.77,
+            "p99_temp_celsius": 25.27,
+            "p95_wind_speed_ms": 8.59,
+            "rain_probability_percent": 0
+        },
+        "341": {
+            "p5_temp_celsius": 11.18,
+            "p75_temp_celsius": 18.18,
+            "p85_temp_celsius": 19.78,
+            "p95_temp_celsius": 22.68,
+            "p99_temp_celsius": 25.18,
+            "p95_wind_speed_ms": 8.54,
+            "rain_probability_percent": 0
+        },
+        "342": {
+            "p5_temp_celsius": 11.09,
+            "p75_temp_celsius": 18.09,
+            "p85_temp_celsius": 19.69,
+            "p95_temp_celsius": 22.59,
+            "p99_temp_celsius": 25.09,
+            "p95_wind_speed_ms": 8.5,
+            "rain_probability_percent": 0
+        },
+        "343": {
+            "p5_temp_celsius": 11.0,
+            "p75_temp_celsius": 18.0,
+            "p85_temp_celsius": 19.6,
+            "p95_temp_celsius": 22.5,
+            "p99_temp_celsius": 25.0,
+            "p95_wind_speed_ms": 8.46,
+            "rain_probability_percent": 0
+        },
+        "344": {
+            "p5_temp_celsius": 10.92,
+            "p75_temp_celsius": 17.92,
+            "p85_temp_celsius": 19.52,
+            "p95_temp_celsius": 22.42,
+            "p99_temp_celsius": 24.92,
+            "p95_wind_speed_ms": 8.42,
+            "rain_probability_percent": 0
+        },
+        "345": {
+            "p5_temp_celsius": 10.84,
+            "p75_temp_celsius": 17.84,
+            "p85_temp_celsius": 19.44,
+            "p95_temp_celsius": 22.34,
+            "p99_temp_celsius": 24.84,
+            "p95_wind_speed_ms": 8.39,
+            "rain_probability_percent": 0.76
+        },
+        "346": {
+            "p5_temp_celsius": 10.76,
+            "p75_temp_celsius": 17.76,
+            "p85_temp_celsius": 19.36,
+            "p95_temp_celsius": 22.26,
+            "p99_temp_celsius": 24.76,
+            "p95_wind_speed_ms": 8.35,
+            "rain_probability_percent": 0
+        },
+        "347": {
+            "p5_temp_celsius": 10.69,
+            "p75_temp_celsius": 17.69,
+            "p85_temp_celsius": 19.29,
+            "p95_temp_celsius": 22.19,
+            "p99_temp_celsius": 24.69,
+            "p95_wind_speed_ms": 8.32,
+            "rain_probability_percent": 0
+        },
+        "348": {
+            "p5_temp_celsius": 10.62,
+            "p75_temp_celsius": 17.62,
+            "p85_temp_celsius": 19.22,
+            "p95_temp_celsius": 22.12,
+            "p99_temp_celsius": 24.62,
+            "p95_wind_speed_ms": 8.28,
+            "rain_probability_percent": 0
+        },
+        "349": {
+            "p5_temp_celsius": 10.55,
+            "p75_temp_celsius": 17.55,
+            "p85_temp_celsius": 19.15,
+            "p95_temp_celsius": 22.05,
+            "p99_temp_celsius": 24.55,
+            "p95_wind_speed_ms": 8.25,
+            "rain_probability_percent": 0.19
+        },
+        "350": {
+            "p5_temp_celsius": 10.49,
+            "p75_temp_celsius": 17.49,
+            "p85_temp_celsius": 19.09,
+            "p95_temp_celsius": 21.99,
+            "p99_temp_celsius": 24.49,
+            "p95_wind_speed_ms": 8.22,
+            "rain_probability_percent": 0
+        },
+        "351": {
+            "p5_temp_celsius": 10.43,
+            "p75_temp_celsius": 17.43,
+            "p85_temp_celsius": 19.03,
+            "p95_temp_celsius": 21.93,
+            "p99_temp_celsius": 24.43,
+            "p95_wind_speed_ms": 8.2,
+            "rain_probability_percent": 0
+        },
+        "352": {
+            "p5_temp_celsius": 10.37,
+            "p75_temp_celsius": 17.37,
+            "p85_temp_celsius": 18.97,
+            "p95_temp_celsius": 21.87,
+            "p99_temp_celsius": 24.37,
+            "p95_wind_speed_ms": 8.17,
+            "rain_probability_percent": 0
+        },
+        "353": {
+            "p5_temp_celsius": 10.32,
+            "p75_temp_celsius": 17.32,
+            "p85_temp_celsius": 18.92,
+            "p95_temp_celsius": 21.82,
+            "p99_temp_celsius": 24.32,
+            "p95_wind_speed_ms": 8.15,
+            "rain_probability_percent": 0
+        },
+        "354": {
+            "p5_temp_celsius": 10.27,
+            "p75_temp_celsius": 17.27,
+            "p85_temp_celsius": 18.87,
+            "p95_temp_celsius": 21.77,
+            "p99_temp_celsius": 24.27,
+            "p95_wind_speed_ms": 8.13,
+            "rain_probability_percent": 0
+        },
+        "355": {
+            "p5_temp_celsius": 10.23,
+            "p75_temp_celsius": 17.23,
+            "p85_temp_celsius": 18.83,
+            "p95_temp_celsius": 21.73,
+            "p99_temp_celsius": 24.23,
+            "p95_wind_speed_ms": 8.11,
+            "rain_probability_percent": 0
+        },
+        "356": {
+            "p5_temp_celsius": 10.19,
+            "p75_temp_celsius": 17.19,
+            "p85_temp_celsius": 18.79,
+            "p95_temp_celsius": 21.69,
+            "p99_temp_celsius": 24.19,
+            "p95_wind_speed_ms": 8.09,
+            "rain_probability_percent": 0
+        },
+        "357": {
+            "p5_temp_celsius": 10.15,
+            "p75_temp_celsius": 17.15,
+            "p85_temp_celsius": 18.75,
+            "p95_temp_celsius": 21.65,
+            "p99_temp_celsius": 24.15,
+            "p95_wind_speed_ms": 8.07,
+            "rain_probability_percent": 0
+        },
+        "358": {
+            "p5_temp_celsius": 10.12,
+            "p75_temp_celsius": 17.12,
+            "p85_temp_celsius": 18.72,
+            "p95_temp_celsius": 21.62,
+            "p99_temp_celsius": 24.12,
+            "p95_wind_speed_ms": 8.06,
+            "rain_probability_percent": 0
+        },
+        "359": {
+            "p5_temp_celsius": 10.09,
+            "p75_temp_celsius": 17.09,
+            "p85_temp_celsius": 18.69,
+            "p95_temp_celsius": 21.59,
+            "p99_temp_celsius": 24.09,
+            "p95_wind_speed_ms": 8.04,
+            "rain_probability_percent": 0
+        },
+        "360": {
+            "p5_temp_celsius": 10.07,
+            "p75_temp_celsius": 17.07,
+            "p85_temp_celsius": 18.67,
+            "p95_temp_celsius": 21.57,
+            "p99_temp_celsius": 24.07,
+            "p95_wind_speed_ms": 8.03,
+            "rain_probability_percent": 0
+        },
+        "361": {
+            "p5_temp_celsius": 10.05,
+            "p75_temp_celsius": 17.05,
+            "p85_temp_celsius": 18.65,
+            "p95_temp_celsius": 21.55,
+            "p99_temp_celsius": 24.05,
+            "p95_wind_speed_ms": 8.02,
+            "rain_probability_percent": 0
+        },
+        "362": {
+            "p5_temp_celsius": 10.03,
+            "p75_temp_celsius": 17.03,
+            "p85_temp_celsius": 18.63,
+            "p95_temp_celsius": 21.53,
+            "p99_temp_celsius": 24.03,
+            "p95_wind_speed_ms": 8.01,
+            "rain_probability_percent": 0
+        },
+        "363": {
+            "p5_temp_celsius": 10.02,
+            "p75_temp_celsius": 17.02,
+            "p85_temp_celsius": 18.62,
+            "p95_temp_celsius": 21.52,
+            "p99_temp_celsius": 24.02,
+            "p95_wind_speed_ms": 8.01,
+            "rain_probability_percent": 0
+        },
+        "364": {
+            "p5_temp_celsius": 10.01,
+            "p75_temp_celsius": 17.01,
+            "p85_temp_celsius": 18.61,
+            "p95_temp_celsius": 21.51,
+            "p99_temp_celsius": 24.01,
+            "p95_wind_speed_ms": 8.0,
+            "rain_probability_percent": 0
+        },
+        "365": {
+            "p5_temp_celsius": 10.0,
+            "p75_temp_celsius": 17.0,
+            "p85_temp_celsius": 18.6,
+            "p95_temp_celsius": 21.5,
+            "p99_temp_celsius": 24.0,
+            "p95_wind_speed_ms": 8.0,
+            "rain_probability_percent": 0
+        },
+        "366": {
+            "p5_temp_celsius": 10.0,
+            "p75_temp_celsius": 17.0,
+            "p85_temp_celsius": 18.6,
+            "p95_temp_celsius": 21.5,
+            "p99_temp_celsius": 24.0,
+            "p95_wind_speed_ms": 8.0,
+            "rain_probability_percent": 0
+        }
+    }
+}

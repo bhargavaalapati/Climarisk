@@ -1,0 +1,66 @@
+# ######################################
+# ### --- DEPENDENCIES & LOCKFILES --- ###
+# ######################################
+# Node.js dependencies
+/node_modules
+/backend/node_modules
+/frontend/node_modules
+
+# ################################
+# ### --- BUILD ARTIFACTS --- ###
+# ################################
+# nothing for now
+
+# ####################################
+# ### --- PYTHON ENVIRONMENT --- ###
+# ####################################
+# Python virtual environment
+/venv/
+# Python cache
+/__pycache__/
+# Cfgrib cache files
+*.idx
+
+# #################################
+# ### --- GENERATED DATA --- ###
+# #################################
+# Raw downloaded data files
+*.grib
+# All raw downloaded NASA data
+/nasa_merra2_data_sample/
+/nasa_merra2_data/
+/backend/nasa_merra2_data_sample/
+/proto_py_files/
+
+/cache
+
+# Ignore big generated JSON files if needed
+*.json
+# BUT keep backend/*.json so they’re pushed
+!/backend-service/*.json
+# DO NOT ignore package configuration files
+!/frontend/package.json
+!/frontend/package-lock.json
+!/frontend/static.json
+
+backend
+backend-service/cache
+
+# ######################################
+# ### --- SENSITIVE INFORMATION --- ###
+# ######################################
+# Environment variables
+.env
+# NASA authentication files
+.netrc
+.urs_cookies
+.dodsrc
+
+# #############################
+# ### --- IDE / OS FILES --- ###
+# #############################
+# VSCode settings
+.vscode
+# macOS folder attributes
+
+.DS_Store
