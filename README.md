@@ -1,7 +1,7 @@
 # Project ClimaRisk: A NASA Space Apps 2025 Submission
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Status][((https://img.shields.io/badge/status-on%20hold-orange.svg))]()
 [![Built With](https://img.shields.io/badge/Built%20With-React%20%26%20Python-blue.svg)](https://reactjs.org/)
 
 ClimaRisk is a personalized climatological risk assessment tool that provides users with the historical likelihood of adverse weather conditions for any location and date. It empowers users to make informed, data-driven decisions for long-range planning by analyzing decades of Earth observation data.
